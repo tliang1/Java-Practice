@@ -12,7 +12,7 @@ Programming is fun
 
 #How To Use
 
-##Eclipse Instructions
+##Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click folder of the project and select Import.
