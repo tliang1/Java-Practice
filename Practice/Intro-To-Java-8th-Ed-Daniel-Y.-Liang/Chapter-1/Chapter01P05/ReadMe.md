@@ -8,9 +8,9 @@ Displays the result of the expression:
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-1/Chapter01P05/images/instructions/expression.png "Expression"
 
-#How To Use
+#Project Setup
 
-##Eclipse IDE Instructions
+###Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click folder of the project and select Import.

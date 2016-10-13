@@ -6,9 +6,9 @@ Displays the message five times:
 
 Welcome to Java
 
-#How To Use
+#Project Setup
 
-##Eclipse IDE Instructions
+###Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click folder of the project and select Import.

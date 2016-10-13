@@ -11,9 +11,9 @@ Prints the table:
 | 3 | 9 | 27 |
 | 4 | 16 | 64 |
 
-#How To Use
+#Project Setup
 
-##Eclipse IDE Instructions
+###Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click folder of the project and select Import.
