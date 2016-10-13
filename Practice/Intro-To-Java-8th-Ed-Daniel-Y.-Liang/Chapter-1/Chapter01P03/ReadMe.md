@@ -6,7 +6,7 @@ Displays the pattern:
 
 ![alt text][logo]
 
-[logo]: https://github.com/tliang1/Java-Practice/tree/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-1/Chapter01P03/images/instructions/output.png "Output"
+[logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-1/Chapter01P03/images/instructions/output.png "Output"
 
 #How To Use
 
