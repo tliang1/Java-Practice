@@ -5,6 +5,7 @@ Made using Java SE 1.8.
 Computes the area of a hexagon.
 
 Hexagon Area Formula
+
 ![alt text][logo]
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-2/Chapter02P22/images/instructions/hexagon_area_formula.png "Hexagon Area Formula"

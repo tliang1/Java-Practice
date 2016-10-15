@@ -5,6 +5,7 @@ Made using Java SE 1.8.
 Computes the distance between two points.
 
 Distance Formula
+
 ![alt text][logo]
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-2/Chapter02P20/images/instructions/distance_formula.png "Distance Formula"

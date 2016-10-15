@@ -5,6 +5,7 @@ Made using Java SE 1.8.
 Computes the wind-chill temperature.
 
 Wind Chill Temperature Formula
+
 ![alt text][logo]
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-2/Chapter02P17/images/instructions/wind_chill_temperature_formula.png "Wind Chill Temperature Formula"

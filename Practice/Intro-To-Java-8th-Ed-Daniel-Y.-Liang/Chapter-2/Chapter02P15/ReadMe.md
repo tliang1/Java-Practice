@@ -5,6 +5,7 @@ Made using Java SE 1.8.
 Displays the compound values of the first six months with a principal value of $100 and an annual interest rate of 5%.
 
 Compound Value Formula
+
 ![alt text][logo]
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-2/Chapter02P15/images/instructions/compound_value_formula.png "Compound Value Formula"

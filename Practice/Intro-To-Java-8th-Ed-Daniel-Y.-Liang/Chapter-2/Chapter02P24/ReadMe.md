@@ -5,6 +5,7 @@ Made using Java SE 1.8.
 Computes the minimum runaway length given the take-off speed and the acceleration.
 
 Minimum Runaway Length Formula
+
 ![alt text][logo]
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-2/Chapter02P24/images/instructions/minimum_runaway_length_formula.png "Minimum Runaway Length Formula"

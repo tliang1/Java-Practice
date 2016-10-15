@@ -5,6 +5,7 @@ Made using Java SE 1.8.
 Computes the average acceleration given the starting and ending velocities and the time span.
 
 Average Acceleration Formula
+
 ![alt text][logo]
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-2/Chapter02P23/images/instructions/average_acceleration_formula.png "Average Acceleration Formula"
