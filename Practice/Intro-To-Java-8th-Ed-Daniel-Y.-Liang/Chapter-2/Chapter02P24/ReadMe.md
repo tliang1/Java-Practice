@@ -24,4 +24,4 @@ Minimum Runaway Length Formula
 9. Run the program.
 
 #How To Use
-1. Enter the take-off speed in meters per second and the acceleration in meters per second squared. Each value must be separated by a space. No commas.
+1. Enter the take-off speed in meters per second and the acceleration in meters per second squared. The take-off speed and the acceleration must be separated by a space. No commas.

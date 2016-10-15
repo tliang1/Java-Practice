@@ -24,4 +24,4 @@ Average Acceleration Formula
 9. Run the program.
 
 #How To Use
-1. Enter the starting velocity in meters per second, ending velocity in meters per second, and the time span in seconds. Each value must be separated by a space. No commas.
+1. Enter the starting velocity in meters per second, ending velocity in meters per second, and the time span in seconds. The starting velocity, the ending velocity, and the time span must be separated by a space. No commas.
