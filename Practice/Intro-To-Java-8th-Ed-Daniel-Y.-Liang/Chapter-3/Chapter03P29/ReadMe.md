@@ -18,5 +18,5 @@ Given two circles with their center points and radii, check if the second circle
 9. Run the program.
 
 #How To Use
-1. Enter the first circle's center point and its radius. The x and the y coordinates, the width, and the height must be separated by a space. No commas.
-2. Enter the second circle's center point and its radius. The x and the y coordinates, the width, and the height must be separated by a space. No commas.
+1. Enter the first circle's center point and its radius. The x and the y coordinates and the radius must be separated by a space. No commas.
+2. Enter the second circle's center point and its radius. The x and the y coordinates and the radius must be separated by a space. No commas.
