@@ -2,7 +2,7 @@
 
 Made using Java SE 1.8.
 
-Check whether an integer is even.
+Checks whether an integer is even.
 
 #Project Setup
 
