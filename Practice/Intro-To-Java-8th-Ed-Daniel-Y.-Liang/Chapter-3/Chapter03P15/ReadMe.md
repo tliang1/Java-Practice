@@ -18,4 +18,4 @@ Simple lottery game.
 9. Run the program.
 
 #How To Use
-1. Enter three digits. The digits must be together.
+1. Enter the three digit number.
