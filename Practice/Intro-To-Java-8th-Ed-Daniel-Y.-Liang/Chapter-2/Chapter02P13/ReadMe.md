@@ -4,6 +4,12 @@ Made using Java SE 1.8.
 
 Computes the future investment value.
 
+Future Investment Value Formula
+
+![alt text][logo]
+
+[logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-2/Chapter02P13/images/instructions/future_investment_value_formula.png "Future Investment Value Formula"
+
 #Project Setup
 
 ###Eclipse IDE Instructions

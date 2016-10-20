@@ -4,6 +4,12 @@ Made using Java SE 1.8.
 
 Computes the BMI.
 
+BMI Formula
+
+![alt text][logo]
+
+[logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-2/Chapter02P14/images/instructions/bmi_formula.png "BMI Formula"
+
 #Project Setup
 
 ###Eclipse IDE Instructions
