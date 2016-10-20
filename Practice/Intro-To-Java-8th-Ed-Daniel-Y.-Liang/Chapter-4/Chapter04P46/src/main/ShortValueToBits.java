@@ -16,7 +16,8 @@ public class ShortValueToBits
 		
 		int mask = 1;
 		
-		for (int bitPosition = 15; bitPosition >= 0; bitPosition--) {
+		for (int bitPosition = 15; bitPosition >= 0; bitPosition--)
+		{
 			int rightShiftedNumber = number >> bitPosition;
 			int bit = rightShiftedNumber & mask; // Get the last bit of the right shifted number
 			

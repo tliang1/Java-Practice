@@ -1,4 +1,4 @@
-#Integer To Hexadecimal Revised by Tony Liang
+#Integer To Hexadecimal by Tony Liang
 
 Made using Java SE 1.8.
 

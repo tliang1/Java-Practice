@@ -4,11 +4,11 @@ Made using Java SE 1.8.
 
 Computes the monthly payment, the total payment, the interests, the principals, and balances given the loan amount, the loan period in years, and the annual interest rate. Then, it displays the loan amortization schedule.
 
-Monthly Payment Total Payment Interest Principal And Balance Formulas
+Monthly Payment, Total Payment, Interest, Principal, And Balance Formulas
 
 ![alt text][logo]
 
-[logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-4/Chapter04P22/images/instructions/monthly_payment_total_payment_interest_principal_and_balance_formulas.png "Monthly Payment Total Payment Interest Principal And Balance Formulas"
+[logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-4/Chapter04P22/images/instructions/monthly_payment_total_payment_interest_principal_and_balance_formulas.png "Monthly Payment, Total Payment, Interest, Principal, And Balance Formulas"
 
 #Project Setup
 
