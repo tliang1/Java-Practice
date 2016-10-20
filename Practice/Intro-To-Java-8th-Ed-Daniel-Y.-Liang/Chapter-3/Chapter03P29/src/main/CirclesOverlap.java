@@ -23,7 +23,7 @@ public class CirclesOverlap
 				Math.pow(circle2CenterY - circle1CenterY, 2), 0.5);
 		double differenceInRadius = Math.pow(Math.pow(circle1Radius - circle2Radius, 2), 0.5);
 		
-		if (distance <= (circle1Radius + circle2Radius))
+		if (distance < (circle1Radius + circle2Radius))
 		{
 			if (distance <= differenceInRadius)
 			{

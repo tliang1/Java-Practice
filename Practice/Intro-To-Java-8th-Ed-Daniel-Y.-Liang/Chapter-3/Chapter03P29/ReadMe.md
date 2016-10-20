@@ -2,7 +2,7 @@
 
 Made using Java SE 1.8.
 
-Given two circles with their center points and radii, check if the second circle is inside the first circle or overlaps the first circle or neither.
+Given two circles with their center points and radii, checks if the second circle is inside the first circle or overlaps the first circle or neither.
 
 #Project Setup
 

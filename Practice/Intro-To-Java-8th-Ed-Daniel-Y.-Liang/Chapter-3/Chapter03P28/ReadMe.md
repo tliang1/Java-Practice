@@ -2,7 +2,7 @@
 
 Made using Java SE 1.8.
 
-Given two rectangles with their center points, widths, and heights, check if the second rectangle is inside the first rectangle or overlaps the first rectangle or neither.
+Given two rectangles with their center points, widths, and heights, checks if the second rectangle is inside the first rectangle or overlaps the first rectangle or neither.
 
 #Project Setup
 
