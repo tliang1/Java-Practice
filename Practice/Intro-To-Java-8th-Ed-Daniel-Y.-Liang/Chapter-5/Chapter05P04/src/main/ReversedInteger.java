@@ -24,7 +24,7 @@ public class ReversedInteger
 	}
 	
 	/**
-	 * Display the reverse of an integer.
+	 * Displays the reverse of an integer.
 	 * 
 	 * @param number	an integer
 	 */
