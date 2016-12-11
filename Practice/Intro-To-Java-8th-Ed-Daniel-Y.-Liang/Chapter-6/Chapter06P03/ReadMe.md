@@ -2,7 +2,7 @@
 
 Made using Java SE 1.8.
 
-Displays the ten integers in reverse order given the ten integers.
+Displays the number of occurrences of each integer between 1 and 100 inclusive given the integers. 
 
 #Project Setup
 
