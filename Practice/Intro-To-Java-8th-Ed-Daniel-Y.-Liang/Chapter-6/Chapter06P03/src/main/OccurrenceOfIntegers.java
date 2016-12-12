@@ -14,7 +14,8 @@ public class OccurrenceOfIntegers
 		
 		System.out.print("Enter the integers between 1 and 100: ");
 		
-		int[] occurrences = new int[100];
+		final int MAX_INTEGER = 100;
+		int[] occurrences = new int[MAX_INTEGER];
 		
 		int currentInteger = -1;
 		

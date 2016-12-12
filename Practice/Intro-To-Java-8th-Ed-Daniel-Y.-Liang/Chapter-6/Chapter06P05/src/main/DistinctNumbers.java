@@ -14,7 +14,8 @@ public class DistinctNumbers
 	{
 		Scanner input = new Scanner(System.in);
 		
-		int[] integers = new int[10];
+		final int MAX_NUMBER_OF_DISTINCT_INTEGERS = 10;
+		int[] integers = new int[MAX_NUMBER_OF_DISTINCT_INTEGERS];
 		Arrays.fill(integers, -1);
 		
 		System.out.print("Enter ten numbers: ");

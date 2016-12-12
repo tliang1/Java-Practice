@@ -11,7 +11,9 @@ public class ReverseTenIntegers
 	public static void main(String[] args)
 	{	
 		Scanner input = new Scanner(System.in);
-		int[] integers = new int[10];
+		
+		final int NUMBER_OF_INTEGERS = 10;
+		int[] integers = new int[NUMBER_OF_INTEGERS];
 		
 		System.out.print("Enter ten integers: ");
 		

@@ -16,7 +16,8 @@ public class AnalyzingScores
 		
 		System.out.print("Enter scores (Limit: 10 scores maximum. Enter a negative integer to finish): ");
 		
-		int[] scores = new int[10];
+		final int MAX_NUMBER_OF_SCORES = 10;
+		int[] scores = new int[MAX_NUMBER_OF_SCORES];
 		Arrays.fill(scores, -1);
 		
 		int score = 0;
