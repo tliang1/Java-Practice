@@ -21,7 +21,8 @@ public class SmallestElementIndexTest
 	{
 		for (int index = 0; index < doubleValues.length; index++)
 		{
-			assertEquals(minimumValuesIndexes[index], SmallestElementIndex.indexOfSmallestElement(doubleValues[index]));
+			assertEquals(minimumValuesIndexes[index], 
+					SmallestElementIndex.indexOfSmallestElement(doubleValues[index]));
 		}
 	}
 }
