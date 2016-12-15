@@ -47,6 +47,8 @@ public class AssignGrades
 
 	/**
 	 * Returns the largest integer in the integer array argument.
+	 * <p>
+	 * If the integer array's size is 1, the largest integer will default to the only element in the array..
 	 * 
 	 * @param numbers	array of integers
 	 * @return			the largest integer
