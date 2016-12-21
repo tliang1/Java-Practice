@@ -22,7 +22,7 @@ public class EightQueens
 			if (column < 0)
 			{
 				queenPositions[queensPlaced] = -1;
-		        queensPlaced--;
+				queensPlaced--;
 		    }
 			else
 			{
@@ -51,7 +51,7 @@ public class EightQueens
 			return -1;
 		}
 		
-		int currentColumn = ((queenPositions[row] < 0) || (queenPositions[row] > queenPositions.length)) 
+		int currentColumn = ((queenPositions[row] < 0) || (queenPositions[row] >= queenPositions.length)) 
 				? 0 : (queenPositions[row] + 1);
 		
 		for (int column = currentColumn; column < queenPositions.length; column++)
