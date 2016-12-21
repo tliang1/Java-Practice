@@ -23,7 +23,7 @@ public class EightQueens
 			{
 				queenPositions[queensPlaced] = -1;
 				queensPlaced--;
-		    }
+			}
 			else
 			{
 				queenPositions[queensPlaced] = column;
