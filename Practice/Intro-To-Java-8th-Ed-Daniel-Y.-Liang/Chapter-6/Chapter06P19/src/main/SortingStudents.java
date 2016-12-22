@@ -51,9 +51,11 @@ public class SortingStudents
 	
 	/**
 	 * Sorts the integer and string array arguments using selection sort.
+	 * <p>
+	 * If the integer array's size is not equal to the string array's size, an error will be displayed.
 	 * 
-	 * @param scores	array of integers
-	 * @param names		array of strings
+	 * @param scores	array of scores
+	 * @param names		array of names
 	 */
 	public static void selectionSortStudents(int[] scores, String[] names) 
 	{
