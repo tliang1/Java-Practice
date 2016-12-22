@@ -55,45 +55,45 @@ public class CouponCollectorProblem
 		
 		int suit = (card - 1) / 13;
 		
-		switch ((card % 13) + 1)
+		switch ((card - 1) % 13)
 		{
-		case 1:
+		case 0:
 			System.out.print("Ace of ");
 			break;
-		case 2:
+		case 1:
 			System.out.print("2 of ");
 			break;
-		case 3:
+		case 2:
 			System.out.print("3 of ");
 			break;
-		case 4:
+		case 3:
 			System.out.print("4 of ");
 			break;
-		case 5:
+		case 4:
 			System.out.print("5 of ");
 			break;
-		case 6:
+		case 5:
 			System.out.print("6 of ");
 			break;
-		case 7:
+		case 6:
 			System.out.print("7 of ");
 			break;
-		case 8:
+		case 7:
 			System.out.print("8 of ");
 			break;
-		case 9:
+		case 8:
 			System.out.print("9 of ");
 			break;
-		case 10:
+		case 9:
 			System.out.print("10 of ");
 			break;
-		case 11:
+		case 10:
 			System.out.print("Jack of ");
 			break;
-		case 12:
+		case 11:
 			System.out.print("Queen of ");
 			break;
-		case 13:
+		case 12:
 			System.out.print("King of ");
 			break;
 		}
