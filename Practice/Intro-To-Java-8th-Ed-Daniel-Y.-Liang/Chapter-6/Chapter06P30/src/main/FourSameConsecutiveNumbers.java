@@ -34,10 +34,10 @@ public class FourSameConsecutiveNumbers
 		
 		if (!isConsecutiveFour(values))
 		{
-			System.out.print("does not ");
+			System.out.print("don't ");
 		}
 		
-		System.out.println("contains four consecutive numbers with the same value.");
+		System.out.println("contain four consecutive numbers with the same value.");
 		
 		input.close();
 	}
