@@ -9,14 +9,12 @@ public class PickingFourCards
 	public static void main(String[] args)
 	{
 		final int NUMBER_OF_CARDS = 52;
-		
 		int picks = 0;
 		int sum = 0;
 		
 		while (sum != 24)
 		{
 			int card = (int) (Math.random() * NUMBER_OF_CARDS) + 1;
-			
 			int cardValue = cardValue(card);
 			
 			if ((sum + cardValue) <= 24)
