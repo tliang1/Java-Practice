@@ -54,7 +54,7 @@ public class GradeExam
 	 * <p>
 	 * For the studentScores array:
 	 * <p>
-	 * students[i][j]
+	 * studentScores[i][j]
 	 * <p>
 	 * i = row
 	 * <p>
