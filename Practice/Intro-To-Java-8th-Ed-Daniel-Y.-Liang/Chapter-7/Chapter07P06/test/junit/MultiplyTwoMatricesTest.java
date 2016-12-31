@@ -84,7 +84,8 @@ public class MultiplyTwoMatricesTest
 	{
 		for (int pair = 0; pair < listOfMatricesPairs.length; pair++)
 		{
-			double[][] product = MultiplyTwoMatrices.multiplyMatrix(listOfMatricesPairs[pair][0], listOfMatricesPairs[pair][1]);
+			double[][] product = MultiplyTwoMatrices.multiplyMatrix(listOfMatricesPairs[pair][0],
+					listOfMatricesPairs[pair][1]);
 			
 			for (int row = 0; row < productOfTwoMatrices[pair].length; row++)
 			{

@@ -57,16 +57,11 @@ public class MultiplyTwoMatrices
 			}
 			else
 			{
-				System.out.print("\t");
+				System.out.print("\t*\t");
 			}
 			
 			for (int column = 0; column < COLUMNS; column++)
 			{
-				if ((row == (ROWS / 2)) && (column == 0))
-				{
-					System.out.print("*\t");
-				}
-				
 				System.out.printf("%-3.1f", matrix2[row][column]);
 				
 				if (column != (COLUMNS - 1))
@@ -81,16 +76,11 @@ public class MultiplyTwoMatrices
 			}
 			else
 			{
-				System.out.print("\t");
+				System.out.print("\t=\t");
 			}
 			
 			for (int column = 0; column < COLUMNS; column++)
 			{
-				if ((row == (ROWS / 2)) && (column == 0))
-				{
-					System.out.print("=\t");
-				}
-				
 				System.out.printf("%-3.1f", (product[row][column]));
 				
 				if (column != (COLUMNS - 1))

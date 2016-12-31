@@ -57,16 +57,11 @@ public class AddTwoMatrices
 			}
 			else
 			{
-				System.out.print("\t");
+				System.out.print("\t+\t");
 			}
 			
 			for (int column = 0; column < COLUMNS; column++)
 			{
-				if ((row == (ROWS / 2)) && (column == 0))
-				{
-					System.out.print("+\t");
-				}
-				
 				System.out.print(matrix2[row][column]);
 				
 				if (column != (COLUMNS - 1))
@@ -81,16 +76,11 @@ public class AddTwoMatrices
 			}
 			else
 			{
-				System.out.print("\t");
+				System.out.print("\t=\t");
 			}
 			
 			for (int column = 0; column < COLUMNS; column++)
 			{
-				if ((row == (ROWS / 2)) && (column == 0))
-				{
-					System.out.print("=\t");
-				}
-				
 				System.out.print(sum[row][column]);
 				
 				if (column != (COLUMNS - 1))
@@ -108,8 +98,16 @@ public class AddTwoMatrices
 	/**
 	 * Returns the sum of the two matrices given the two double two-dimensional array arguments.
 	 * <p>
-	 * If the two double two-dimensional array arguments are not valid matrices, don't have same rows and columns,
-	 * and not have at least one row and column, then the sum will default to a empty double two-dimensional array.
+	 * If all of the following conditions below are not met, then the sum will default to a empty double
+	 * two-dimensional array.
+	 * <p>
+	 * 1. Both double two-dimensional array arguments are valid matrices.
+	 * <p>
+	 * 2. Their number of rows and columns are both greater than 0.
+	 * <p>
+	 * 3. The first argument's number of rows is equal to the second argument's number of rows.
+	 * <p>
+	 * 4. The first argument's number of columns is equal to the second argument's number of columns.
 	 * 
 	 * @param a		array of double values in a matrix
 	 * @param b		array of double values in a matrix
