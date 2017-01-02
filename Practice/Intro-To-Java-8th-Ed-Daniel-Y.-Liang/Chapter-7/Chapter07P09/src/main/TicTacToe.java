@@ -69,7 +69,7 @@ public class TicTacToe
 			
 			int column = input.nextInt();
 			
-			if (ticTacToeBoard[row - 1][column - 1] < 0)
+			if (ticTacToeBoard[row - 1][column - 1] == -1)
 			{
 				ticTacToeBoard[row - 1][column - 1] = playerStart ? 1 : 0;
 				playerStart = !playerStart;
@@ -210,7 +210,6 @@ public class TicTacToe
 		{
 			if ((XOrOMajorDiagonal == 0) || (XOrOMajorDiagonal == 1))
 			{
-				
 				if (board[row][majorColumn] == XOrOMajorDiagonal)
 				{
 					majorCount++;
@@ -224,7 +223,6 @@ public class TicTacToe
 			
 			if ((XOrOMinorDiagonal == 0) || (XOrOMinorDiagonal == 1))
 			{
-				
 				if (board[row][minorColumn] == XOrOMinorDiagonal)
 				{
 					minorCount++;
