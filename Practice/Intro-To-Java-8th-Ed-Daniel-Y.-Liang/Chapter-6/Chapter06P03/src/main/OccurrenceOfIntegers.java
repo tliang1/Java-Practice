@@ -16,7 +16,6 @@ public class OccurrenceOfIntegers
 		
 		final int MAX_INTEGER = 100;
 		int[] occurrences = new int[MAX_INTEGER];
-		
 		int currentInteger = -1;
 		
 		while (currentInteger != 0)
@@ -36,8 +35,11 @@ public class OccurrenceOfIntegers
 
 	/**
 	 * Displays the number of occurrences for each index of the integer array argument.
-	 * <p>
-	 * If the occurrences for a index is 0, the element will not be displayed.
+	 * <ul>
+	 * 	<li>
+	 * 		If the occurrences for a index is 0, the element will not be displayed.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param occurrences	array of occurrences
 	 */

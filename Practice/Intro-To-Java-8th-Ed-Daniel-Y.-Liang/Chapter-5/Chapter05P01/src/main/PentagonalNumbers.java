@@ -6,7 +6,6 @@ package main;
  */
 public class PentagonalNumbers
 {
-
 	public static void main(String[] args)
 	{
 		printNPentagonalNumbers(100, 10);
@@ -24,12 +23,16 @@ public class PentagonalNumbers
 	}
 
 	/**
-	 * Prints up to the number of pentagonal numbers specified by the first argument while limiting the numbers per 
-	 * line by the second argument.
-	 * <p>
-	 * If the first argument is less than 1, no pentagonal numbers are displayed.
-	 * <p>
-	 * If the second argument is less than 1, it will default to 1.
+	 * Prints up to the number of pentagonal numbers specified by the first argument while limiting the pentagonal
+	 * numbers per line by the second argument.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first argument is less than 1, no pentagonal numbers are displayed.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the second argument is less than 1, it will default to 1.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param numberOfPentagonalNumbers		total number of pentagonal numbers to display
 	 * @param maxNumbersPerLine				max pentagonal numbers to display per line

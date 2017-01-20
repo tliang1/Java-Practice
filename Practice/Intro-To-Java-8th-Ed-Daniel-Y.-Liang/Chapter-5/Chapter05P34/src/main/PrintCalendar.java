@@ -8,10 +8,10 @@ import java.util.Scanner;
  */
 public class PrintCalendar
 {
-	
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
+		
 		int year = 0;
 		
 		while (year < 1)
@@ -35,8 +35,11 @@ public class PrintCalendar
 	
 	/**
 	 * Displays the calendar for the specified month in the specified year.
-	 * <p>
-	 * If the first argument is less than 1 or the second argument is invalid, nothing is displayed.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first argument is less than 1 or the second argument is invalid, nothing is displayed.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param year		the year
 	 * @param month		the month
@@ -52,8 +55,11 @@ public class PrintCalendar
 	
 	/**
 	 * Displays the month, year, and the names of the days of the week.
-	 * <p>
-	 * If the first argument is less than 1 or the second argument is invalid, nothing is displayed.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first argument is less than 1 or the second argument is invalid, nothing is displayed.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param year		the year
 	 * @param month		the month
@@ -69,9 +75,12 @@ public class PrintCalendar
 	}
 	
 	/**
-	 * Returns the name for the month.
-	 * <p>
-	 * If the integer argument is invalid, no month name is returned.
+	 * Returns the name for the specified month.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is invalid, no month name is returned.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param month		the month
 	 * @return			the name of the month
@@ -125,8 +134,11 @@ public class PrintCalendar
 	
 	/**
 	 * Displays the days of the specified month in the specified year.
-	 * <p>
-	 * If the first argument is less than 1 or the second argument is invalid, no days are displayed.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first argument is less than 1 or the second argument is invalid, no days are displayed.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param year		the year
 	 * @param month		the month
@@ -162,10 +174,14 @@ public class PrintCalendar
 	}
 	
 	/**
-	 * Returns the day of the week of the first day of the specified month and year using Zeller's congruence.
-	 * <p>
-	 * If the first argument is less than 1 or the second argument is invalid, the day of the week will default to
-	 * -1.
+	 * Returns the day of the week of the first day of the specified month in the specified year using Zeller's
+	 * congruence.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first argument is less than 1 or the second argument is invalid, the day of the week will
+	 * 		default to -1.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param year		the year
 	 * @param month		the month
@@ -178,6 +194,7 @@ public class PrintCalendar
 			if (month < 3)
 			{
 				--year;
+				
 				if (month == 1)
 				{
 					month = 13;
@@ -192,7 +209,7 @@ public class PrintCalendar
 			int century = year / 100;
 			int yearOfTheCentury = year % 100;
 			
-			return (dayOfTheMonth + (int)(26 * (month + 1) / 10) + yearOfTheCentury + 
+			return (dayOfTheMonth + (int)(26 * (month + 1) / 10) + yearOfTheCentury +
 					(int)(yearOfTheCentury / 4) + (int)(century / 4) + (5 * century)) % 7;
 		}
 		else
@@ -203,9 +220,12 @@ public class PrintCalendar
 	
 	/**
 	 * Returns the total number of days since January 1, 1 to the specified month and year.
-	 * <p>
-	 * If the first argument is less than 1 or the second argument is invalid, the total number of days will 
-	 * default to 0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first argument is less than 1 or the second argument is invalid, the total number of days will
+	 * 		default to 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param year		the year
 	 * @param month		the month
@@ -241,10 +261,13 @@ public class PrintCalendar
 	}
 	
 	/**
-	 * Returns the number of days in the specified month.
-	 * <p>
-	 * If the first argument is less than 1 or the second argument is invalid, the number of days will default to 
-	 * 0.
+	 * Returns the number of days of the specified month in the specified year.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first argument is less than 1 or the second argument is invalid, the number of days will
+	 * 		default to 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param year		the year
 	 * @param month		the month
@@ -275,9 +298,12 @@ public class PrintCalendar
 	}
 	
 	/**
-	 * Returns if the year is a leap year.
-	 * <p>
-	 * If the integer argument is less than 1, it will default to be not a leap year.
+	 * Returns if the integer argument is a leap year.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 1, it will default to be not a leap year.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param year	the year
 	 * @return		true if the year is a leap year. Otherwise, false.

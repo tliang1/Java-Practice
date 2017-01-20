@@ -6,7 +6,6 @@ package main;
  */
 public class SalesAmountRevised
 {
-	
 	public static void main(String[] args)
 	{
 		final double MINIMUM_SALES_AMOUNT = 10000.0;
@@ -25,7 +24,7 @@ public class SalesAmountRevised
 	}
 
 	/**
-	 * Returns the commission of the specified sales amount.
+	 * Returns the commission of the specified double argument.
 	 * 
 	 * @param salesAmount	the sales amount
 	 * @return				the commission

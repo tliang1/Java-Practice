@@ -42,5 +42,4 @@ public class ComputeTaxTest
 	{
 		assertEquals(expected, ComputeTax.computeTax(status, income), 1.0);
 	}
-
 }

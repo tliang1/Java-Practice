@@ -31,8 +31,8 @@ public class DaysInAYearTest
 	@Parameters
 	public static Collection<Integer[]> daysInYearList() 
 	{
-		return Arrays.asList(new Integer[][] { { 2000, 366 }, { 2003, 365 }, { 2008, 366 }, { 2016, 366 }, 
-			{ 2014, 365 }, { -251, 365 } });
+		return Arrays.asList(new Integer[][] { { -251, 365 }, { 2000, 366 }, { 2003, 365 }, { 2008, 366 },
+			{ 2016, 366 }, { 2014, 365 } });
 	}
 	
 	@Test
@@ -40,5 +40,4 @@ public class DaysInAYearTest
 	{
 		assertEquals(expected, DaysInAYear.numberOfDaysInAYear(year));
 	}
-
 }

@@ -33,8 +33,8 @@ public class ComputeTaxTest
 	@Parameters
 	public static Collection<Object[]> taxList() 
 	{
-		return Arrays.asList(new Object[][] { { 0, 50000, 8688 }, { 1, 50050, 6673 }, { 2, 59950, 11175 }, 
-			{ 3, 60000, 9853 }, { 0, 400000, 117683.5 }, { 2, -5.42, 0.0 } });
+		return Arrays.asList(new Object[][] { { 2, -5.42, 0.0 }, { 0, 50000, 8688 }, { 1, 50050, 6673 },
+			{ 2, 59950, 11175 }, { 3, 60000, 9853 }, { 0, 400000, 117683.5 } });
 	}
 	
 	@Test
@@ -42,5 +42,4 @@ public class ComputeTaxTest
 	{
 		assertEquals(expected, ComputeTax.computeTax(status, income), 1.0);
 	}
-
 }

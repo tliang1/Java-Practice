@@ -12,9 +12,21 @@ import main.StrictlyIdenticalArrays;
  */
 public class StrictlyIdenticalArraysTest
 {
-	int[][] list1Lists = { { }, { 2, 5, 6, 1, 6 }, { 2, 5, 6, 6, 1 }, { 2 } };
-	int[][] list2Lists = { { }, { 2, 5, 6, 1, 6 }, { 2, 5, 6, 1, 6 }, { 1, 2 } };
-	boolean[] equalOrNot = { true, true, false, false };
+	int[][] list1Lists =
+		{
+			{ 2, 5, 6, 6, 1 },
+			{ 2 },
+			{ },
+			{ 2, 5, 6, 1, 6 }
+		};
+	int[][] list2Lists =
+		{
+			{ 2, 5, 6, 1, 6 },
+			{ 1, 2 },
+			{ },
+			{ 2, 5, 6, 1, 6 }
+		};
+	boolean[] equalOrNot = { false, false, true, true };
 	
 	@Test
 	public void testEqual()

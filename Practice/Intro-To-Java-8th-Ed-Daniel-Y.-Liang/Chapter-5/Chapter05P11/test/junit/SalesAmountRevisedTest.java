@@ -39,5 +39,4 @@ public class SalesAmountRevisedTest
 	{
 		assertEquals(expected, SalesAmountRevised.computeCommission(amount), 0.01);
 	}
-
 }

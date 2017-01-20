@@ -18,6 +18,7 @@ public class MultiplyTwoMatrices
 		double[][] matrix2 = new double[ROWS][COLUMNS];
 		
 		System.out.print("Enter matrix1: ");
+		
 		for (int row = 0; row < ROWS; row++)
 		{
 			for (int column = 0; column < COLUMNS; column++)
@@ -27,6 +28,7 @@ public class MultiplyTwoMatrices
 		}
 		
 		System.out.print("Enter matrix2: ");
+		
 		for (int row = 0; row < ROWS; row++)
 		{
 			for (int column = 0; column < COLUMNS; column++)
@@ -97,15 +99,23 @@ public class MultiplyTwoMatrices
 	
 	/**
 	 * Returns the product of the two matrices given the two double two-dimensional array arguments.
-	 * <p>
-	 * If all of the following conditions below are not met, then the product will default to a empty double
-	 * two-dimensional array.
-	 * <p>
-	 * 1. Both double two-dimensional array arguments are valid matrices.
-	 * <p>
-	 * 2. Their number of rows and columns are both greater than 0.
-	 * <p>
-	 * 3. The first argument's number of columns is equal to the second argument's number of rows.
+	 * <ul>
+	 * 	<li>
+	 * 		If all of the following conditions below are not met, then the product will default to a empty double
+	 * 		two-dimensional array.
+	 * 		<ul>
+	 * 			<li>
+	 * 				Both double two-dimensional array arguments are valid matrices.
+	 * 			</li>
+	 * 			<li>
+	 * 				Their number of rows and columns are both greater than 0.
+	 * 			</li>
+	 * 			<li>
+	 * 				The first argument's number of columns is equal to the second argument's number of rows.
+	 * 			</li>
+	 * 		</ul>
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param a		array of double values in a matrix
 	 * @param b		array of double values in a matrix

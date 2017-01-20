@@ -37,15 +37,12 @@ public class FeetAndMetersTest
 	@Test
 	public void testFootToMeter()
 	{
-		assertEquals(expected, FeetAndMeters.footToMeter(feet), 
-				0.1);
+		assertEquals(expected, FeetAndMeters.footToMeter(feet), 0.1);
 	}
 
 	@Test
 	public void testMeterToFoot()
 	{
-		assertEquals(feet, FeetAndMeters.meterToFoot(expected), 
-				0.1);
+		assertEquals(feet, FeetAndMeters.meterToFoot(expected), 0.1);
 	}
-
 }

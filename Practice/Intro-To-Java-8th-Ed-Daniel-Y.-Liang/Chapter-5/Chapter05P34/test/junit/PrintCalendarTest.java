@@ -2,9 +2,6 @@ package junit;
 
 import static org.junit.Assert.*;
 
-import java.util.Arrays;
-import java.util.Collection;
-
 import org.junit.Test;
 
 import main.PrintCalendar;
@@ -15,51 +12,37 @@ import main.PrintCalendar;
  */
 public class PrintCalendarTest
 {
-	Collection<Object[]> validCalendars = Arrays.asList(new Object[][] { { 2016, 9, "September", 5, 30 }, 
-		{ 1800, 1, "January", 4, 31 }, { 2009, 5, "May", 6, 31 }, { 2016, 2, "February", 2, 29 } });
-	Collection<Object[]> invalidCalendars = Arrays.asList(new Object[][] { { 0, 0, "", -1, 0 }, 
-		{ 20, 15, "", -1, 0 }, { -2012, 6, "June", -1, 0 } });
+	int[] years = { 0, 20, -2012, 2016, 1800, 2009, 2016 };
+	int[] months = { 0, 15, 6, 9, 1, 5, 2 };
+	String[] monthNames = { "", "", "June", "September", "January", "May", "February" };
+	int[] startDays = { -1, -1, -1, 5, 4, 6, 2 };
+	int[] listOfNumberOfDaysInMonth = { 0, 0, 0, 30, 31, 31, 29 };
 	
 	@Test
 	public void testGetMonthName()
 	{
-		for (Object[] calendar : validCalendars)
+		for (int month = 0; month < months.length; month++)
 		{
-			assertEquals(calendar[2], PrintCalendar.getMonthName((int)calendar[1]));
-		}
-		
-		for (Object[] calendar : invalidCalendars)
-		{
-			assertEquals(calendar[2], PrintCalendar.getMonthName((int)calendar[1]));
+			assertEquals(monthNames[month], PrintCalendar.getMonthName(months[month]));
 		}
 	}
 	
 	@Test
 	public void testGetStartDay()
 	{
-		for (Object[] calendar : validCalendars)
+		for (int year = 0, month = 0; (year < years.length) && (month < months.length); year++, month++)
 		{
-			assertEquals(calendar[3], PrintCalendar.getStartDay((int)calendar[0], (int)calendar[1]));
-		}
-		
-		for (Object[] calendar : invalidCalendars)
-		{
-			assertEquals(calendar[3], PrintCalendar.getStartDay((int)calendar[0], (int)calendar[1]));
+			assertEquals(startDays[month], PrintCalendar.getStartDay(years[year], months[month]));
 		}
 	}
 	
 	@Test
 	public void testGetNumberOfDaysInMonth()
 	{
-		for (Object[] calendar : validCalendars)
+		for (int year = 0, month = 0; (year < years.length) && (month < months.length); year++, month++)
 		{
-			assertEquals(calendar[4], PrintCalendar.getNumberOfDaysInMonth((int)calendar[0], (int)calendar[1]));
-		}
-		
-		for (Object[] calendar : invalidCalendars)
-		{
-			assertEquals(calendar[4], PrintCalendar.getNumberOfDaysInMonth((int)calendar[0], (int)calendar[1]));
+			assertEquals(listOfNumberOfDaysInMonth[month],
+					PrintCalendar.getNumberOfDaysInMonth(years[year], months[month]));
 		}
 	}
-
 }

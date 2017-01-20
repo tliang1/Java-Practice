@@ -12,7 +12,8 @@ import main.MultiplyTwoMatrices;
  */
 public class MultiplyTwoMatricesTest
 {
-	double[][][][] listOfMatricesPairs = {
+	double[][][][] listsOfMatricesPairs =
+		{
 			{
 				new double[0][0],
 				new double[0][0]
@@ -62,7 +63,8 @@ public class MultiplyTwoMatricesTest
 				}
 			}
 		};
-	double[][][] productOfTwoMatrices = {
+	double[][][] productsOfTwoMatrices =
+		{
 			new double[0][0],
 			new double[0][0],
 			new double[0][0],
@@ -82,14 +84,14 @@ public class MultiplyTwoMatricesTest
 	@Test
 	public void testMultiplyMatrix()
 	{
-		for (int pair = 0; pair < listOfMatricesPairs.length; pair++)
+		for (int pair = 0; pair < listsOfMatricesPairs.length; pair++)
 		{
-			double[][] product = MultiplyTwoMatrices.multiplyMatrix(listOfMatricesPairs[pair][0],
-					listOfMatricesPairs[pair][1]);
+			double[][] product = MultiplyTwoMatrices.multiplyMatrix(listsOfMatricesPairs[pair][0],
+					listsOfMatricesPairs[pair][1]);
 			
-			for (int row = 0; row < productOfTwoMatrices[pair].length; row++)
+			for (int row = 0; row < productsOfTwoMatrices[pair].length; row++)
 			{
-				assertArrayEquals(productOfTwoMatrices[pair][row], product[row], 0.1);
+				assertArrayEquals(productsOfTwoMatrices[pair][row], product[row], 0.1);
 			}
 		}
 	}

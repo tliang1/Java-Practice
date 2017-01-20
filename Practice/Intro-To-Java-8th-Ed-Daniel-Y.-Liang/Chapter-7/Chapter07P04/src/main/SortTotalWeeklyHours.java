@@ -11,7 +11,6 @@ public class SortTotalWeeklyHours
 		int[][] employeeHours = { { 2, 4, 3, 4, 5, 8, 8 }, { 7, 3, 4, 3, 3, 4, 4 }, { 3, 3, 4, 3, 3, 2, 2 }, 
 				{ 9, 3, 4, 7, 3, 4, 1 }, { 3, 5, 4, 3, 6, 3, 8 }, { 3, 4, 4, 6, 3, 4, 4 }, { 3, 7, 4, 8, 3, 8, 4 }, 
 				{ 6, 3, 5, 9, 2, 7, 9 } };
-		
 		final int EMPLOYEE_AND_WEEKLY_HOURS = 2;
 		int[][] totalHours = new int[employeeHours.length][EMPLOYEE_AND_WEEKLY_HOURS];
 		
@@ -41,17 +40,20 @@ public class SortTotalWeeklyHours
 	/**
 	 * Sorts the integer two-dimensional array argument in decreasing order of the second element of the
 	 * one-dimensional array using selection sort.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer two-dimensional array's one-dimensional arrays' sizes are not equal to 2, an error will
+	 * 		be displayed.
+	 * 	</li>
+	 * </ul>
 	 * <p>
 	 * For the employeeWeeklyHours array:
-	 * <p>
+	 * <br>
 	 * employeeWeeklyHours[i][j]
-	 * <p>
+	 * <br>
 	 * i = row
-	 * <p>
+	 * <br>
 	 * j = employee/weekly hours where j = 0 = employee's number and j = 1 = employee's weekly hours
-	 * <p>
-	 * If the integer two-dimensional array's one-dimensional arrays' sizes are not equal to 2, an error will be
-	 * displayed.
 	 * 
 	 * @param employeeWeeklyHours	array of employees and their total weekly hours
 	 */

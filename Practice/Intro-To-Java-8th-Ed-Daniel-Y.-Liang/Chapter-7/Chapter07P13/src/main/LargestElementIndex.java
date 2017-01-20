@@ -29,7 +29,7 @@ public class LargestElementIndex
 		
 		System.out.print("Enter the array: ");
 		
-		for(int row = 0; row < rows; row++)
+		for (int row = 0; row < rows; row++)
 		{
 			for (int column = 0; column < columns; column++)
 			{
@@ -48,10 +48,14 @@ public class LargestElementIndex
 	/**
 	 * Returns the smallest row and column indices of the largest element in the double two-dimensional array
 	 * argument.
-	 * <p>
-	 * If the number of rows or columns of the argument are less than 1, then the indices will default to -1.
-	 * <br>
-	 * If the number of rows and columns of the argument are equal to 1, then the indices will default to 0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the number of rows or columns of the argument are less than 1, then the indices will default to -1.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the number of rows and columns of the argument are equal to 1, then the indices will default to 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param a		array of double values
 	 * @return		the smallest row and column indices of the largest element

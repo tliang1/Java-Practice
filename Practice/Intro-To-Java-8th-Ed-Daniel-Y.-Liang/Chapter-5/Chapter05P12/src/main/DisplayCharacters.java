@@ -6,7 +6,6 @@ package main;
  */
 public class DisplayCharacters
 {
-	
 	public static void main(String[] args)
 	{
 		final int NUMBER_PER_LINE = 10;
@@ -17,10 +16,13 @@ public class DisplayCharacters
 	}
 
 	/**
-	 * Displays characters between the first argument and the second argument inclusive while limiting the characters 
-	 * per line by the third argument.
-	 * <p>
-	 * If the third argument is less than 1, it will default to 1.
+	 * Displays characters between the first argument and the second argument inclusive while limiting the
+	 * characters per line by the third argument.
+	 * <ul>
+	 * 	<li>
+	 * 		If the third argument is less than 1, it will default to 1.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param ch1				the starting character
 	 * @param ch2				the ending character

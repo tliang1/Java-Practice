@@ -8,10 +8,10 @@ import java.util.Scanner;
  */
 public class RegularPolygonArea
 {
-	
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
+		
 		int numberOfSides = 2;
 		
 		while (numberOfSides < 3)
@@ -36,9 +36,12 @@ public class RegularPolygonArea
 
 	/**
 	 * Returns the area of a regular polygon using the integer argument and the double argument.
-	 * <p>
-	 * If the integer argument is less than 3 or the double argument is zero or negative, the area will default to 
-	 * 0.0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 3 or the double argument is zero or negative, the area will default
+	 * 		to 0.0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param n		number of sides
 	 * @param side	side of regular polygon

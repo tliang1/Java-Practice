@@ -32,14 +32,12 @@ public class PentagonalNumbersTest
 	public static Collection<Integer[]> pentagonalNumbersList() 
 	{
 		return Arrays.asList(new Integer[][] { { -5, 40 }, { -3, 15 }, { 1, 1 }, { 2, 5 }, { 3, 12 }, { 4, 22 }, 
-			{ 17, 425}, { 50, 3725 }, { 83, 10292 }, { 100, 14950} });
+			{ 17, 425 }, { 50, 3725 }, { 83, 10292 }, { 100, 14950 } });
 	}
-
 	
 	@Test
 	public void testGetPentagonalNumber()
 	{
 		assertEquals(expected, PentagonalNumbers.getPentagonalNumber(n));
 	}
-
 }

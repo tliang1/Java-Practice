@@ -89,9 +89,12 @@ public class TicTacToe
 	
 	/**
 	 * Displays the TicTacToe board given the integer two-dimensional array argument.
-	 * <p>
-	 * If the integer two-dimensional array's number of rows and columns are not equal to 3, then a empty TicTacToe
-	 * board is displayed.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer two-dimensional array's number of rows and columns are not equal to 3, then a empty
+	 * 		TicTacToe board is displayed.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param board		array of integer values in the TicTacToe board
 	 */
@@ -143,14 +146,20 @@ public class TicTacToe
 	 * 
 	 * @param board		array of integer values in the TicTacToe board
 	 * @return			the winner of the TicTacToe game
-	 * <p>
-	 * If the winner is -1, no winner is chosen. Continue playing.
-	 * <br>
-	 * If the winner is 0, O is the winner.
-	 * <br>
-	 * If the winner is 1, X is the winner.
-	 * <br>
-	 * If the winner is 2, there is no winner. It's a draw.
+	 * <ul>
+	 * 	<li>
+	 * 		If the winner is -1, no winner is chosen. Continue playing.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the winner is 0, O is the winner.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the winner is 1, X is the winner.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the winner is 2, there is no winner. It's a draw.
+	 * 	</li>
+	 * </ul>
 	 */
 	public static int winner(int[][] board)
 	{

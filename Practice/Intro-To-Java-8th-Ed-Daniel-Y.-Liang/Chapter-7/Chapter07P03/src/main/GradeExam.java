@@ -19,7 +19,6 @@ public class GradeExam
 				{'E', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'}};
 		
 		char[] keys = {'D', 'B', 'D', 'C', 'C', 'D', 'A', 'E', 'A', 'D'};
-		
 		final int STUDENT_AND_SCORE = 2;
 		int[][] correctAnswers = new int[answers.length][STUDENT_AND_SCORE];
 		
@@ -51,17 +50,20 @@ public class GradeExam
 	/**
 	 * Sorts the integer two-dimensional array argument in increasing order of the second element of the
 	 * one-dimensional array using selection sort.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer two-dimensional array's one-dimensional arrays' sizes are not equal to 2, an error will
+	 * 		be displayed.
+	 * 	</li>
+	 * </ul>
 	 * <p>
 	 * For the studentScores array:
-	 * <p>
+	 * <br>
 	 * studentScores[i][j]
-	 * <p>
+	 * <br>
 	 * i = row
-	 * <p>
+	 * <br>
 	 * j = student/score where j = 0 = student's number and j = 1 = student's score
-	 * <p>
-	 * If the integer two-dimensional array's one-dimensional arrays' sizes are not equal to 2, an error will be
-	 * displayed.
 	 * 
 	 * @param studentScores		array of students and their scores
 	 */

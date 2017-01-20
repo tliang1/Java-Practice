@@ -6,16 +6,18 @@ package main;
  */
 public class TwinPrimes
 {
-	
 	public static void main(String[] args)
 	{
 		printTwinPrimes(1000);
 	}
 
 	/**
-	 * Returns if the number is prime.
-	 * <p>
-	 * If the integer argument is less than 2, the number will be considered not prime.
+	 * Returns if the integer argument is prime.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 2, the number will be considered not prime.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param number	a number
 	 * @return			true if number is prime. Otherwise, false.
@@ -40,8 +42,11 @@ public class TwinPrimes
 	
 	/**
 	 * Prints twin primes up to, not including, the integer argument.
-	 * <p>
-	 * If the integer argument is less than 3, no twin prime numbers are displayed.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 3, no twin prime numbers are displayed.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param maxNumber		max number
 	 */

@@ -31,8 +31,8 @@ public class MillisecondsConversionTest
 	@Parameters
 	public static Collection<Object[]> millisConvertStringsList() 
 	{
-		return Arrays.asList(new Object[][] { { 5500, "0:0:5" }, { 100000, "0:1:40" }, { 555550000, "154:19:10" },
-			{ 0, "0:0:0" }, { -1234, "0:0:0" } });
+		return Arrays.asList(new Object[][] { { -1234, "0:0:0" }, { 0, "0:0:0" }, { 5500, "0:0:5" },
+			{ 100000, "0:1:40" }, { 555550000, "154:19:10" } });
 	}
 	
 	@Test
@@ -40,5 +40,4 @@ public class MillisecondsConversionTest
 	{
 		assertEquals(expected, MillisecondsConversion.convertMillis(millis));
 	}
-
 }

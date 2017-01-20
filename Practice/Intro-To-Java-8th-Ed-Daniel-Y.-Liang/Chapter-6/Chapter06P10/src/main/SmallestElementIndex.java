@@ -17,7 +17,7 @@ public class SmallestElementIndex
 		
 		System.out.print("Enter ten numbers: ");
 		
-		for(int count = 0; count < NUMBER_OF_DOUBLE_VALUES; count++)
+		for (int count = 0; count < NUMBER_OF_DOUBLE_VALUES; count++)
 		{
 			numbers[count] = input.nextDouble();
 		}
@@ -29,9 +29,14 @@ public class SmallestElementIndex
 	
 	/**
 	 * Returns the smallest index of the minimum element in the double array argument.
-	 * <p>
-	 * If the double array's size is 0, the index will default to -1. If the double array's size is 1, the index
-	 * will default to 0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the double array's size is 0, the index will default to -1.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the double array's size is 1, the index will default to 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param array		array of double values
 	 * @return			the index of the minimum element

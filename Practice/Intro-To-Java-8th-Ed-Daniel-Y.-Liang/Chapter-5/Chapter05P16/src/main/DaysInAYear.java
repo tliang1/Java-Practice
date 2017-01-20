@@ -6,7 +6,6 @@ package main;
  */
 public class DaysInAYear
 {
-	
 	public static void main(String[] args)
 	{
 		final int STARTING_YEAR = 2000;
@@ -24,8 +23,11 @@ public class DaysInAYear
 
 	/**
 	 * Returns the number of days in the specified year.
-	 * <p>
-	 * If the year is less than 1, the number of days will default to 365.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 1, the number of days will default to 365.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param year	year
 	 * @return		number of days

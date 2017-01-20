@@ -8,7 +8,6 @@ import java.util.Scanner;
  */
 public class PalindromeInteger
 {
-	
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
@@ -58,7 +57,7 @@ public class PalindromeInteger
 	}
 	
 	/**
-	 * Returns if an integer is a palindrome integer.
+	 * Returns if the integer argument is a palindrome integer.
 	 * 
 	 * @param number	an integer
 	 * @return			true if integer is palindrome. Otherwise, false.

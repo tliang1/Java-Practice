@@ -12,7 +12,7 @@ import main.LargestElementIndex;
  */
 public class LargestElementIndexTest
 {
-	double[][][] listOfNumbers =
+	double[][][] listsOfNumbers =
 		{
 			new double[0][0],
 			new double[0][1],
@@ -27,14 +27,22 @@ public class LargestElementIndexTest
 				{ 2.2, -7.1 }, { 8.6, 3.1 }, { 6.8, -7.4 }, { 6.3, 1.3 }, { 5, -10 }
 			}
 		};
-	int[][] locations = { { -1, -1 }, { -1, -1 }, { -1, -1 }, { 0, 0 }, { 1, 2 }, { 1, 0 } };
+	int[][] locations =
+		{
+			{ -1, -1 },
+			{ -1, -1 },
+			{ -1, -1 },
+			{ 0, 0 },
+			{ 1, 2 },
+			{ 1, 0 }
+		};
 	
 	@Test
 	public void testLocateLargest()
 	{
-		for (int numbers = 0; numbers < listOfNumbers.length; numbers++)
+		for (int numbers = 0; numbers < listsOfNumbers.length; numbers++)
 		{
-			assertArrayEquals(locations[numbers], LargestElementIndex.locateLargest(listOfNumbers[numbers]));
+			assertArrayEquals(locations[numbers], LargestElementIndex.locateLargest(listsOfNumbers[numbers]));
 		}
 	}
 }

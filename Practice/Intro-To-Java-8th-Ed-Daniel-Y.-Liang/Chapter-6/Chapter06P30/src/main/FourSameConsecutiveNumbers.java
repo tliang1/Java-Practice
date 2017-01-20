@@ -25,7 +25,7 @@ public class FourSameConsecutiveNumbers
 		
 		System.out.print("Enter " + inputSize + " integers: ");
 		
-		for(int count = 0; count < inputSize; count++)
+		for (int count = 0; count < inputSize; count++)
 		{
 			values[count] = input.nextInt();
 		}
@@ -44,8 +44,11 @@ public class FourSameConsecutiveNumbers
 	
 	/**
 	 * Returns if four consecutive integers with the same value is in the integer array argument.
-	 * <p>
-	 * If the integer array's size is less than 4, it will default to false.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer array's size is less than 4, it will default to false.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param values	array of integers
 	 * @return			true if four consecutive integers with the same value is in the integer array argument.

@@ -40,5 +40,4 @@ public class PalindromeIntegerTest
 	{
 		assertEquals(expected, PalindromeInteger.isPalindrome(n));
 	}
-
 }

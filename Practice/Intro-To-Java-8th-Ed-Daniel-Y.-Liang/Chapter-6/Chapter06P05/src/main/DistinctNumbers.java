@@ -9,7 +9,6 @@ import java.util.Scanner;
  */
 public class DistinctNumbers
 {
-	
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
@@ -22,7 +21,7 @@ public class DistinctNumbers
 		
 		int distinctIndex = 0;
 		
-		for(int count = 0; count < integers.length; count++)
+		for (int count = 0; count < integers.length; count++)
 		{
 			int number = input.nextInt();
 			

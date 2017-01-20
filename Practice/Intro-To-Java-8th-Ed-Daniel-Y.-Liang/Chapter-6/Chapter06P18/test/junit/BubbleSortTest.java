@@ -16,7 +16,6 @@ public class BubbleSortTest
 	public void testBubbleSort()
 	{
 		int size = (int)(Math.random() * 100);
-		
 		double[] randomNumbers = new double[size];
 		
 		for (int index = 0; index < size; index++)

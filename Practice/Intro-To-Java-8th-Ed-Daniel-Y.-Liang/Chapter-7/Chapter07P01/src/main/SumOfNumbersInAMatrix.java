@@ -22,9 +22,12 @@ public class SumOfNumbersInAMatrix
 	
 	/**
 	 * Returns the sum of all elements in the integer two-dimensional array argument.
-	 * <p>
-	 * If the integer two-dimensional array's size is 0 and/or its one-dimensional arrays' sizes are all 0s, the sum
-	 * will default to 0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer two-dimensional array's size is 0 and/or its one-dimensional arrays' sizes are all 0s,
+	 * 		the sum will default to 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param m		array of integers in a matrix
 	 * @return		the sum of all integers in the matrix
@@ -46,8 +49,11 @@ public class SumOfNumbersInAMatrix
 	
 	/**
 	 * Returns the two-dimensional array of user input integer values given the two integer arguments.
-	 * <p>
-	 * If one or both integer arguments are negative, they will default to 0 accordingly.
+	 * <ul>
+	 * 	<li>
+	 * 		If one or both integer arguments are negative, they will default to 0 accordingly.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param rows		rows of the matrix
 	 * @param columns	columns	of the matrix

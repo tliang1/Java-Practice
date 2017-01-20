@@ -6,17 +6,18 @@ package main;
  */
 public class Emirps
 {
-	
 	public static void main(String[] args)
 	{
 		printEmirps(100, 10);
 	}
 
 	/**
-	 * Returns if the number is prime.
-	 * <p>
-	 * If the integer argument is less than 2, the number will be considered not prime.
-	 * 
+	 * Returns if the integer argument is prime.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 2, the number will be considered not prime.
+	 *	</li>
+	 * </ul>
 	 * @param number	a number
 	 * @return			true if number is prime. Otherwise, false.
 	 */
@@ -68,10 +69,10 @@ public class Emirps
 	}
 	
 	/**
-	 * Returns if an integer is a palindrome integer.
+	 * Returns if the integer argument is a palindrome integer.
 	 * 
 	 * @param number	an integer
-	 * @return			true if integer is palindrome. Otherwise, false.
+	 * @return			true if the number is a palindrome integer. Otherwise, false.
 	 */
 	public static boolean isPalindrome(int number)
 	{
@@ -79,12 +80,16 @@ public class Emirps
 	}
 	
 	/**
-	 * Prints up to the number of emirp numbers specified by the first argument while limiting the numbers per 
-	 * line by the second argument.
-	 * <p>
-	 * If the first argument is less than 1, no emirp numbers are displayed.
-	 * <p>
-	 * If the second argument is less than 1, it will default to 1.
+	 * Prints up to the number of emirp numbers specified by the first argument while limiting the emirp numbers
+	 * per line by the second argument.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first argument is less than 1, no emirp numbers are displayed.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the second argument is less than 1, it will default to 1.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param numberOfEmirps	total number of emirp numbers to display
 	 * @param maxEmirpsPerLine	max emirp numbers to display per line

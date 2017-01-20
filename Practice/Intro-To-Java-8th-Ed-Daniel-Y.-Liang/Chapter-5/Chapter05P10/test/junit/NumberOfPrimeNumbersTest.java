@@ -31,7 +31,7 @@ public class NumberOfPrimeNumbersTest
 	@Parameters
 	public static Collection<Integer[]> primeNumbersTotalList() 
 	{
-		return Arrays.asList(new Integer[][] { { 230, 50 }, { 10000, 1229 }, { 18, 7 }, { 100, 25 }, { 2, 0 } });
+		return Arrays.asList(new Integer[][] { { 2, 0 }, { 230, 50 }, { 10000, 1229 }, { 18, 7 }, { 100, 25 } });
 	}
 	
 	@Test
@@ -39,5 +39,4 @@ public class NumberOfPrimeNumbersTest
 	{
 		assertEquals(expected, NumberOfPrimeNumbers.totalPrimeNumbers(max));
 	}
-
 }

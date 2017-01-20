@@ -6,7 +6,6 @@ package main;
  */
 public class CrapsRevised
 {
-	
 	public static void main(String[] args)
 	{		
 		System.out.println("Total winning games: " + numberOfWins(10000));
@@ -15,8 +14,11 @@ public class CrapsRevised
 	/**
 	 * Returns the number of times you win the Craps game out of the integer argument amount of times to run the 
 	 * game.
-	 * <p>
-	 * If the integer argument is less than 1, it will default to 1.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 1, it will default to 1.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param numberOfTimes		number of times to run the Craps game
 	 * @return					the number of times you won the Craps game
@@ -35,6 +37,7 @@ public class CrapsRevised
 			if (crapsGame())
 			{
 				System.out.println("You win\n");
+				
 				wins++;
 			}
 			else
@@ -59,7 +62,6 @@ public class CrapsRevised
 	{
 		int firstDice = (int)((Math.random() * 6) + 1);
 		int secondDice = (int)((Math.random() * 6) + 1);
-		
 		int sum = firstDice + secondDice;
 		
 		System.out.println("You rolled " + firstDice + " + " + secondDice + " = " + sum);

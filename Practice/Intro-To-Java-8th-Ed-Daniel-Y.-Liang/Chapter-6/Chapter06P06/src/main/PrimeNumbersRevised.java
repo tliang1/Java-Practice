@@ -27,8 +27,11 @@ public class PrimeNumbersRevised
 	
 	/**
 	 * Returns the first specified number of prime numbers given the integer argument.
-	 * <p>
-	 * If the integer argument is negative, an empty integer array is returned.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is negative, an empty integer array is returned.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param numberOfPrimes	number of prime numbers to find
 	 * @return					the integer array of the first numberOfPrimes prime numbers

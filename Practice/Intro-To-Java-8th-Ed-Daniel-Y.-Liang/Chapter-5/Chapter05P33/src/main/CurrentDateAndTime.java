@@ -6,7 +6,6 @@ package main;
  */
 public class CurrentDateAndTime
 {
-	
 	public static void main(String[] args)
 	{
 		System.out.println("Current date and time is " + showCurrentDate() + " " + showCurrentTime());
@@ -31,9 +30,12 @@ public class CurrentDateAndTime
 	}
 	
 	/**
-	 * Returns if the year is a leap year.
-	 * <p>
-	 * If the integer argument is less than 1, it will default to be not a leap year.
+	 * Returns if the integer argument is a leap year.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 1, it will default to be not a leap year.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param year	the year
 	 * @return		true if the year is a leap year. Otherwise, false.
@@ -50,9 +52,12 @@ public class CurrentDateAndTime
 	
 	/**
 	 * Returns the number of days in the specified month of the specified year.
-	 * <p>
-	 * If the first argument is negative or the second argument is not a valid month (1 - 12), the number of days 
-	 * will default to 0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first argument is negative or the second argument is not a valid month (1 - 12), the number of
+	 * 		days will default to 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param year		the year
 	 * @param month		the month
@@ -89,7 +94,6 @@ public class CurrentDateAndTime
 	{
 		long totalDays = (System.currentTimeMillis() / 1000 / 60 / 60 / 24) + 1;
 		int year = 1970;
-		
 		int yearDays = isLeapYear(year) ? 366 : 365;
 		
 		while (totalDays > yearDays)
@@ -105,7 +109,6 @@ public class CurrentDateAndTime
 		while (totalDays > monthDays)
 		{
 			totalDays -= getNumberOfDaysInMonth(year, month);
-			
 			month++;
 			
 			if (month == 12)

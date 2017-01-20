@@ -17,14 +17,14 @@ public class ReversingAnArray
 		
 		System.out.print("Enter ten integers: ");
 		
-		for(int count = 0; count < integers.length; count++)
+		for (int count = 0; count < integers.length; count++)
 		{
 			integers[count] = input.nextInt();
 		}
 		
 		integers = reverse(integers);
 		
-		for(int count = 0; count < integers.length; count++)
+		for (int count = 0; count < integers.length; count++)
 		{
 			System.out.print(integers[count] + " ");
 		}
@@ -36,8 +36,11 @@ public class ReversingAnArray
 	
 	/**
 	 * Returns the integers in reverse order given the integer array argument.
-	 * <p>
-	 * If the integer array's size is less than 2, the integer array is returned as is.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer array's size is less than 2, the integer array is returned as is.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param list	array of integers
 	 * @return		the array of integers in reverse order

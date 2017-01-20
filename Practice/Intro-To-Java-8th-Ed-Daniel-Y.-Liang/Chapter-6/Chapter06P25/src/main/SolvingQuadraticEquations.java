@@ -44,11 +44,15 @@ public class SolvingQuadraticEquations
 	
 	/**
 	 * Returns the number of roots given the double array arguments.
-	 * <p>
-	 * If the first double array's size is not equal to 3 or the first element is 0, then the number of roots will 
-	 * default to 0.
-	 * <p>
-	 * If the second double array's size is not equal to 2, it will default to a new double array of size 2.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first double array's size is not equal to 3 or the first element is 0, then the number of roots
+	 * 		will default to 0.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the second double array's size is not equal to 2, it will default to a new double array of size 2.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param eqn		array of coefficients
 	 * @param roots		array of roots
@@ -75,18 +79,15 @@ public class SolvingQuadraticEquations
 		else
 		{
 			double root1 = (-eqn[1] + Math.pow(discriminant, 0.5)) / (2 * eqn[0]);
+			roots[0] = root1;
 			
 			if (discriminant == 0)
 			{
-				roots[0] = root1;
-				
 				return 1;
 			}
 			else
 			{
 				double root2 = (-eqn[1] - Math.pow(discriminant, 0.5)) / (2 * eqn[0]);
-				
-				roots[0] = root1;
 				roots[1] = root2;
 				
 				return 2;

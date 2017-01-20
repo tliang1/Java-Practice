@@ -2,9 +2,6 @@ package junit;
 
 import static org.junit.Assert.*;
 
-import java.util.Arrays;
-import java.util.Collection;
-
 import org.junit.Test;
 
 import main.RandomCharacter;
@@ -18,10 +15,18 @@ public class RandomCharacterTest
 	@Test
 	public void testGetRandomCharacterCharChar()
 	{
-		Collection<Character[]> characterRanges = Arrays.asList(new Character[][] { { 'c', 'r' }, { '!', '/' }, 
-			{ ':', '~' }, { 'a', 'z' }, { 'A', 'Z' }, { '0', '9' }, { '\u0000', '\uFFFF' } });
+		char[][] characterRanges =
+			{ 
+				{ 'c', 'r' },
+				{ '!', '/' },
+				{ ':', '~' },
+				{ 'a', 'z' },
+				{ 'A', 'Z' },
+				{ '0', '9' },
+				{ '\u0000', '\uFFFF' }
+			};
 		
-		for (Character[] characterRange : characterRanges)
+		for (char[] characterRange : characterRanges)
 		{
 			char randomCharacter = RandomCharacter.getRandomCharacter(characterRange[0], characterRange[1]);
 			assertTrue((randomCharacter >= characterRange[0]) && (randomCharacter <= characterRange[1]));
@@ -55,5 +60,4 @@ public class RandomCharacterTest
 		char randomCharacter = RandomCharacter.getRandomCharacter();
 		assertTrue((randomCharacter >= '\u0000') && (randomCharacter <= '\uFFFF'));
 	}
-
 }

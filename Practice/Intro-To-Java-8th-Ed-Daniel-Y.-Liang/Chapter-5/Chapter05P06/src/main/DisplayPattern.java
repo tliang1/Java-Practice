@@ -8,10 +8,10 @@ import java.util.Scanner;
  */
 public class DisplayPattern
 {
-	
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
+		
 		int n = -1;
 		
 		while (n < 1)
@@ -27,18 +27,21 @@ public class DisplayPattern
 
 	/**
 	 * Displays the left half of an integer pyramid up to the integer argument.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 1, an error will be displayed.
+	 * 	</li>
+	 * </ul>
 	 * <p>
 	 * Example:
-	 * <p>
+	 * <br>
 	 * The left half of an integer pyramid with n = 3:
-	 * <p>
+	 * <br>
 	 * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1
-	 * <p>
+	 * <br>
 	 * &nbsp;&nbsp;&nbsp;2 1
-	 * <p>
+	 * <br>
 	 * 3 2 1
-	 * <p>
-	 * If n is less than 1, an error will be displayed.
 	 * 
 	 * @param n		a nonzero positive integer
 	 */

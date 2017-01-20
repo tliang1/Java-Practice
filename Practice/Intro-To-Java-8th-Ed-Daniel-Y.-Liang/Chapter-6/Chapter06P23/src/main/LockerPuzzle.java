@@ -29,8 +29,11 @@ public class LockerPuzzle
 	
 	/**
 	 * Solves the locker puzzle given the boolean array argument.
-	 * <p>
-	 * If the boolean array's size is 0, an error will be displayed.
+	 * <ul>
+	 * 	<li>
+	 * 		If the boolean array's size is 0, an error will be displayed.
+	 * 	</li>
+	 * </ul>
 	 * <p>
 	 * Every element of the boolean array will default to false before solving the puzzle.
 	 * 

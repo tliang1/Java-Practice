@@ -17,7 +17,7 @@ public class BubbleSort
 		
 		System.out.print("Enter seven numbers: ");
 		
-		for(int count = 0; count < numbers.length; count++)
+		for (int count = 0; count < numbers.length; count++)
 		{
 			numbers[count] = input.nextDouble();
 		}
@@ -26,7 +26,7 @@ public class BubbleSort
 		
 		System.out.print("The seven sorted numbers are: ");
 		
-		for(int count = 0; count < numbers.length; count++)
+		for (int count = 0; count < numbers.length; count++)
 		{
 			System.out.print(numbers[count] + " ");
 		}

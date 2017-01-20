@@ -6,7 +6,6 @@ package main;
  */
 public class CelsiusAndFahrenheit
 {
-	
 	public static void main(String[] args)
 	{
 		final double MAXIMUM_CELSIUS = 40.0;
@@ -30,7 +29,7 @@ public class CelsiusAndFahrenheit
 	}
 	
 	/**
-	 * Converts celsius to fahrenheit.
+	 * Converts celsius to fahrenheit using the double argument.
 	 * 
 	 * @param celsius	celsius in degrees
 	 * @return			fahrenheit in degrees
@@ -41,7 +40,7 @@ public class CelsiusAndFahrenheit
 	}
 	
 	/**
-	 * Converts fahrenheit to celsius.
+	 * Converts fahrenheit to celsius using the double argument.
 	 * 
 	 * @param fahrenheit	fahrenheit in degrees
 	 * @return				celsius in degrees
@@ -50,5 +49,4 @@ public class CelsiusAndFahrenheit
 	{
 		return (5.0 / 9) * (fahrenheit - 32);
 	}
-
 }

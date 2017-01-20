@@ -6,7 +6,6 @@ package main;
  */
 public class FeetAndMeters
 {
-	
 	public static void main(String[] args)
 	{
 		final double MINIMUM_FEET = 1.0;
@@ -30,7 +29,7 @@ public class FeetAndMeters
 	}
 	
 	/**
-	 * Converts feet to meters.
+	 * Converts feet to meters using the double argument.
 	 * 
 	 * @param foot	foot
 	 * @return		meter
@@ -41,7 +40,7 @@ public class FeetAndMeters
 	}
 	
 	/**
-	 * Converts meters to feet.
+	 * Converts meters to feet using the double argument.
 	 * 
 	 * @param meter		meter
 	 * @return			foot
@@ -50,5 +49,4 @@ public class FeetAndMeters
 	{
 		return meter / 0.305;
 	}
-
 }

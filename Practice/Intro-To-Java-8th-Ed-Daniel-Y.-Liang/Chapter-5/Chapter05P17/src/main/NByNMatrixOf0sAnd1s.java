@@ -6,16 +6,18 @@ package main;
  */
 public class NByNMatrixOf0sAnd1s
 {
-	
 	public static void main(String[] args)
 	{
 		printMatrix(3);
 	}
 
 	/**
-	 * Prints a NxN matrix of random binary digits.
-	 * <p>
-	 * If n is less than 1, an error will be displayed.
+	 * Prints a NxN matrix of random binary digits given the integer argument.
+	 * <ul>
+	 * 	<li>
+	 * 		If integer argument is less than 1, an error will be displayed.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param n		matrix size
 	 */

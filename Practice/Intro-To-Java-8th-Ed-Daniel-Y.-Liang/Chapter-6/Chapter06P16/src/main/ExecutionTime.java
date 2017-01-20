@@ -39,7 +39,6 @@ public class ExecutionTime
 		executionTime = endTime - startTime;
 		
 		System.out.println("The execution time of the binary search is " + executionTime + "ms");
-		
 	}
 	
 	/**
@@ -73,6 +72,12 @@ public class ExecutionTime
 	
 	/**
 	 * Returns the index of the integer argument in the integer array argument using linear search.
+	 * <ul>
+	 * 	<li>
+	 * 		If the index of the integer argument can't be found in the integer array argument, it will default to
+	 * 		-1.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param list	array of integers
 	 * @param key	integer to search for
@@ -93,6 +98,12 @@ public class ExecutionTime
 	
 	/**
 	 * Returns the index of the integer argument in the integer array argument using binary search.
+	 * <ul>
+	 * 	<li>
+	 * 		If the index of the integer argument can't be found in the integer array argument, it will default to
+	 * 		-1.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param list	array of integers
 	 * @param key	integer to search for
@@ -121,6 +132,6 @@ public class ExecutionTime
 			}
 		}
 		
-		return -low - 1;
+		return -1;
 	}
 }

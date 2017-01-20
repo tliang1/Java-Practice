@@ -6,7 +6,6 @@ package main;
  */
 public class Craps
 {
-	
 	public static void main(String[] args)
 	{
 		if (crapsGame())
@@ -32,7 +31,6 @@ public class Craps
 	{
 		int firstDice = (int)((Math.random() * 6) + 1);
 		int secondDice = (int)((Math.random() * 6) + 1);
-		
 		int sum = firstDice + secondDice;
 		
 		System.out.println("You rolled " + firstDice + " + " + secondDice + " = " + sum);

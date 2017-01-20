@@ -8,7 +8,6 @@ import java.util.Scanner;
  */
 public class AssignGrades
 {
-
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
@@ -35,7 +34,7 @@ public class AssignGrades
 			System.out.print(" score: ");
 		}
 		
-		for(int student = 0; student < totalStudents; student++)
+		for (int student = 0; student < totalStudents; student++)
 		{
 			scores[student] = input.nextInt();
 		}
@@ -47,71 +46,84 @@ public class AssignGrades
 
 	/**
 	 * Returns the largest integer in the integer array argument.
-	 * <p>
-	 * If the integer array's size is 1, the largest integer will default to the only element in the array.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer array's size is less than 1, the largest integer will default to 0.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the integer array's size is 1, the largest integer will default to the only element in the array.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param numbers	array of integers
 	 * @return			the largest integer
 	 */
 	public static int largestNumber(int[] numbers)
 	{
-		if (numbers.length == 1)
+		if (numbers.length < 1)
+		{
+			return 0;
+		}
+		else if (numbers.length == 1)
 		{
 			return numbers[0];
 		}
-		
-		int max = numbers[0];
-		
-		for(int index = 1; index < numbers.length; index++)
+		else
 		{
-			if (numbers[index] > max)
+			int max = numbers[0];
+			
+			for (int index = 1; index < numbers.length; index++)
 			{
-				max = numbers[index];
+				if (numbers[index] > max)
+				{
+					max = numbers[index];
+				}
 			}
+			
+			return max;
 		}
-		
-		return max;
 	}
 	
 	/**
-	 * Prints every student's score and grade in the integer array argument.
-	 * <p>
-	 * If the integer array's size is less than 1, nothing is displayed.
+	 * Prints every student's score and grade using the integer array argument.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer array's size is less than 1, nothing is displayed.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param numbers	array of integers
 	 */
 	public static void printStudentsScoresAndGrades(int[] numbers)
 	{
-		if (numbers.length < 1)
+		if (numbers.length > 0)
 		{
-			return;
-		}
-		
-		int bestScore = largestNumber(numbers);
-		
-		for(int index = 0; index < numbers.length; index++)
-		{
-			System.out.print("Student " + index + " score is " + numbers[index] + " and grade is ");
+			int bestScore = largestNumber(numbers);
 			
-			if (numbers[index] >= (bestScore - 10))
+			for (int index = 0; index < numbers.length; index++)
 			{
-				System.out.println("A");
-			}
-			else if (numbers[index] >= (bestScore - 20))
-			{
-				System.out.println("B");
-			}
-			else if (numbers[index] >= (bestScore - 30))
-			{
-				System.out.println("C");
-			}
-			else if (numbers[index] >= (bestScore - 40))
-			{
-				System.out.println("D");
-			}
-			else
-			{
-				System.out.println("F");
+				System.out.print("Student " + index + " score is " + numbers[index] + " and grade is ");
+				
+				if (numbers[index] >= (bestScore - 10))
+				{
+					System.out.println("A");
+				}
+				else if (numbers[index] >= (bestScore - 20))
+				{
+					System.out.println("B");
+				}
+				else if (numbers[index] >= (bestScore - 30))
+				{
+					System.out.println("C");
+				}
+				else if (numbers[index] >= (bestScore - 40))
+				{
+					System.out.println("D");
+				}
+				else
+				{
+					System.out.println("F");
+				}
 			}
 		}
 	}

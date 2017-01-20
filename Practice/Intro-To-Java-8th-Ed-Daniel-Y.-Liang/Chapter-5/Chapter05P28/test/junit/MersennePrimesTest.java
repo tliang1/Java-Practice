@@ -2,9 +2,6 @@ package junit;
 
 import static org.junit.Assert.*;
 
-import java.util.Arrays;
-import java.util.Collection;
-
 import org.junit.Test;
 
 import main.MersennePrimes;
@@ -15,27 +12,27 @@ import main.MersennePrimes;
  */
 public class MersennePrimesTest
 {
-	Collection<Object[]> mersenneNumbers = Arrays.asList(new Object[][] { { 2, 3, true }, { 1, 0, false }, 
-		{ 13, 8191, true }, { 6, 63, false } });
+	int[] numbers = { 1, 6, 2, 13 };
 	
 	@Test
 	public void testMersennePrime()
 	{
-		for (Object[] number : mersenneNumbers)
+		int[] mersennePrimeNumbers = { 0, 63, 3, 8191 };
+		
+		for (int number = 0; number < numbers.length; number++)
 		{
-			int num = (int) number[0];
-			assertEquals(number[1], MersennePrimes.mersennePrime(num));
+			assertEquals(mersennePrimeNumbers[number], MersennePrimes.mersennePrime(numbers[number]));
 		}
 	}
 	
 	@Test
 	public void testIsMersennePrime()
 	{
-		for (Object[] number : mersenneNumbers)
+		boolean[] mersennePrimeOrNot = { false, false, true, true };
+		
+		for (int number = 0; number < numbers.length; number++)
 		{
-			int num = (int) number[0];
-			assertEquals(number[2], MersennePrimes.isMersennePrime(num));
+			assertEquals(mersennePrimeOrNot[number], MersennePrimes.isMersennePrime(numbers[number]));
 		}
 	}
-
 }

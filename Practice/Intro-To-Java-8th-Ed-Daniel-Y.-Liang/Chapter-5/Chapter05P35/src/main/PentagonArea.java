@@ -8,10 +8,10 @@ import java.util.Scanner;
  */
 public class PentagonArea
 {
-	
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
+		
 		double side = -1.0;
 		
 		while (side < 0.0)
@@ -27,8 +27,11 @@ public class PentagonArea
 
 	/**
 	 * Returns the area of a pentagon using the double argument.
-	 * <p>
-	 * If the double argument is negative, the area will default to 0.0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the double argument is negative, the area will default to 0.0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param side	side of pentagon
 	 * @return		the area of the pentagon

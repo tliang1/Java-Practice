@@ -6,7 +6,6 @@ package main;
  */
 public class TrigonometricMethods
 {
-	
 	public static void main(String[] args)
 	{
 		final int STARTING_DEGREES = 0;
@@ -25,5 +24,4 @@ public class TrigonometricMethods
 		
 		System.out.println();
 	}
-
 }

@@ -57,8 +57,11 @@ public class IdenticalArrays
 	
 	/**
 	 * Returns if the two integer array arguments are identical.
-	 * <p>
-	 * If the two integer arrays' sizes are not equal, the integer arrays will default to being not identical.
+	 * <ul>
+	 * 	<li>
+	 * 		If the two integer arrays' sizes are not equal, the integer arrays will default to being not identical.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param list1		array of integers
 	 * @param list2		array of integers

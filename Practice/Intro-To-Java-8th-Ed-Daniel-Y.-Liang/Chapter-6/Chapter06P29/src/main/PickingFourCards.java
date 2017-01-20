@@ -19,7 +19,7 @@ public class PickingFourCards
 			
 			if ((sum + cardValue) <= 24)
 			{
-				sum += cardValue(card);
+				sum += cardValue;
 			}
 			
 			picks++;
@@ -30,8 +30,11 @@ public class PickingFourCards
 	
 	/**
 	 * Returns the card value of the specified integer argument.
-	 * <p>
-	 * If the integer argument is not between 1 and 52 inclusive, the card value will default to 0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is not between 1 and 52 inclusive, the card value will default to 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param card	card number
 	 * @return		the card value

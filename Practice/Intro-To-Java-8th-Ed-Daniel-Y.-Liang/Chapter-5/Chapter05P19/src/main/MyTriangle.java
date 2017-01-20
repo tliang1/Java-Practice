@@ -8,19 +8,18 @@ import java.util.Scanner;
  */
 public class MyTriangle
 {
-	
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Enter three sides for a triangle: ");		
+		System.out.print("Enter three sides for a triangle: ");
 		double side1 = input.nextDouble();
 		double side2 = input.nextDouble();
 		double side3 = input.nextDouble();
 		
 		while ((side1 <= 0.0) || (side2 <= 0.0) || (side3 <= 0.0))
 		{
-			System.out.print("Enter three sides for a triangle (All sides must be nonzero positive numbers): ");		
+			System.out.print("Enter three sides for a triangle (All sides must be nonzero positive numbers): ");
 			side1 = input.nextDouble();
 			side2 = input.nextDouble();
 			side3 = input.nextDouble();
@@ -39,9 +38,12 @@ public class MyTriangle
 	}
 
 	/**
-	 * Returns if the specified sides can form a triangle.
-	 * <p>
-	 * If any sides are less than or equal to 0.0, the triangle will default to be invalid.
+	 * Returns if the specified double arguments can form a triangle.
+	 * <ul>
+	 * 	<li>
+	 * 		If any of the double arguments are less than or equal to 0.0, the triangle will default to be invalid.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param side1		first side of the triangle
 	 * @param side2		second side of the triangle
@@ -60,11 +62,15 @@ public class MyTriangle
 		
 		return false;
 	}
-	
+
 	/**
-	 * Returns the area of the triangle with the specified sides.
-	 * <p>
-	 * If any sides are less than or equal to 0.0, the area will default to 0.0.
+	 * Returns the area of the triangle using the specified double arguments.
+	 * <ul>
+	 * 	<li>
+	 * 		If any of the double arguments are less than or equal to 0.0 or they can not form a triangle, the area
+	 * 		will default to 0.0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param side1		first side of the triangle
 	 * @param side2		second side of the triangle
@@ -73,13 +79,12 @@ public class MyTriangle
 	 */
 	public static double area(double side1, double side2, double side3)
 	{
-		if ((side1 <= 0.0) || (side2 <= 0.0) || (side3 <= 0.0))
+		if ((side1 <= 0.0) || (side2 <= 0.0) || (side3 <= 0.0) || !isValid(side1, side2, side3))
 		{
 			return 0.0;
 		}
 		
 		double s = (side1 + side2 + side3) / 2;
-		
 		double areaOfTriangle = Math.pow(s * (s - side1) * (s - side2) * (s - side3), 0.5);
 		
 		return (int)(areaOfTriangle * 100) / 100.0;

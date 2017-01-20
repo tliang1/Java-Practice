@@ -2,9 +2,6 @@ package junit;
 
 import static org.junit.Assert.*;
 
-import java.util.Arrays;
-import java.util.Collection;
-
 import org.junit.Test;
 
 import main.CreditCardNumberValidation;
@@ -15,108 +12,108 @@ import main.CreditCardNumberValidation;
  */
 public class CreditCardNumberValidationTest
 {
-	Collection<Object[]> validCardNumbers = Arrays.asList(new Object[][] { { 4388576018410707L, 29, 41 } });
-	Collection<Object[]> invalidCardNumbers = Arrays.asList(new Object[][] { { 4388576018402626L, 37, 38 } });
-	
 	@Test
 	public void testIsValid()
 	{
-		for (Object[] cardNumber : validCardNumbers)
-		{
-			assertTrue(CreditCardNumberValidation.isValid((long)(cardNumber[0])));
-		}
+		long[] creditCardNumbers = { 4388576018402626L, 4388576018410707L };
+		boolean[] validOrNot = { false, true };
 		
-		for (Object[] cardNumber : invalidCardNumbers)
+		for (int creditCardNumber = 0; creditCardNumber < creditCardNumbers.length; creditCardNumber++)
 		{
-			assertFalse(CreditCardNumberValidation.isValid((long)(cardNumber[0])));
+			assertEquals(validOrNot[creditCardNumber],
+					CreditCardNumberValidation.isValid(creditCardNumbers[creditCardNumber]));
 		}
 	}
 	
 	@Test
 	public void testSumOfDoubleEvenPlace()
 	{
-		for (Object[] cardNumber : validCardNumbers)
-		{
-			assertEquals((int)(cardNumber[1]), 
-					CreditCardNumberValidation.sumOfDoubleEvenPlace((long)(cardNumber[0])));
-		}
+		long[] creditCardNumbers = { 0, 4388576018402626L, 4388576018410707L };
+		int[] listOfSumOfAllDoubledDigitsInEvenPlace = { 0, 37, 29 };
 		
-		for (Object[] cardNumber : invalidCardNumbers)
+		for (int creditCardNumber = 0; creditCardNumber < creditCardNumbers.length; creditCardNumber++)
 		{
-			assertEquals((int)(cardNumber[1]), 
-					CreditCardNumberValidation.sumOfDoubleEvenPlace((long)(cardNumber[0])));
+			assertEquals(listOfSumOfAllDoubledDigitsInEvenPlace[creditCardNumber],
+					CreditCardNumberValidation.sumOfDoubleEvenPlace(creditCardNumbers[creditCardNumber]));
 		}
 	}
 	
 	@Test
 	public void testGetDigit()
 	{
-		int[][] numbers = new int[][] { { 4, 4 }, { 16, 7 }, { -7, 0 }, { 21, 0 } };
+		int[] creditCardNumbers = { -7, 21, 4, 16 };
+		int[] listOfSumOfAllDigits = { 0, 0, 4, 7 };
 		
-		for (int[] number : numbers)
+		for (int creditCardNumber = 0; creditCardNumber < creditCardNumbers.length; creditCardNumber++)
 		{
-			assertEquals(number[1], CreditCardNumberValidation.getDigit(number[0]));
+			assertEquals(listOfSumOfAllDigits[creditCardNumber],
+					CreditCardNumberValidation.getDigit(creditCardNumbers[creditCardNumber]));
 		}
 	}
 	
 	@Test
 	public void testSumOfOddPlace()
 	{
-		for (Object[] cardNumber : validCardNumbers)
-		{
-			assertEquals((int)(cardNumber[2]), CreditCardNumberValidation.sumOfOddPlace((long)(cardNumber[0])));
-		}
+		long[] creditCardNumbers = { 0, 4388576018402626L, 4388576018410707L };
+		int[] listOfSumOfAllDigitsInOddPlace = { 0, 38, 41 };
 		
-		for (Object[] cardNumber : invalidCardNumbers)
+		for (int creditCardNumber = 0; creditCardNumber < creditCardNumbers.length; creditCardNumber++)
 		{
-			assertEquals((int)(cardNumber[2]), CreditCardNumberValidation.sumOfOddPlace((long)(cardNumber[0])));
+			assertEquals(listOfSumOfAllDigitsInOddPlace[creditCardNumber],
+					CreditCardNumberValidation.sumOfOddPlace(creditCardNumbers[creditCardNumber]));
 		}
 	}
 	
 	@Test
 	public void testPrefixMatched()
 	{
-		Collection<Object[]> validPrefixNumbers = Arrays.asList(new Object[][] { 
-			{ 4388576018410707L, 43, true }, { 4388576018410707L, 4, true }, { 4388576018410707L, 43885, true } });
-		Collection<Object[]> invalidPrefixNumbers = Arrays.asList(new Object[][] { 
-			{ 4388576018410707L, 5, false }, { 4388576018410707L, 638, false }, { 4388576018410707L, -5, false }, 
-			{ -4388576018410707L, 4, false }, { -4388576018410707L, -5, false } });
+		long[] validCreditCardNumbers = { 4388576018410707L, 4388576018410707L, 4388576018410707L };
+		long[] invalidCreditCardNumbers = { 4388576018410707L, 4388576018410707L, 4388576018410707L,
+				-4388576018410707L, -4388576018410707L };
+		int[] validPrefixes = { 43, 4, 43885 };
+		int[] invalidPrefixes = { 5, 638, -5, 4, -5 };
 		
-		for (Object[] number : validPrefixNumbers)
+		for (int creditCardNumber = 0; creditCardNumber < validCreditCardNumbers.length; creditCardNumber++)
 		{
-			assertTrue(CreditCardNumberValidation.prefixMatched((long)(number[0]), (int)(number[1])));
+			assertTrue(CreditCardNumberValidation.prefixMatched(validCreditCardNumbers[creditCardNumber],
+					validPrefixes[creditCardNumber]));
 		}
 		
-		for (Object[] number : invalidPrefixNumbers)
+		for (int creditCardNumber = 0; creditCardNumber < invalidCreditCardNumbers.length; creditCardNumber++)
 		{
-			assertFalse(CreditCardNumberValidation.prefixMatched((long)(number[0]), (int)(number[1])));
+			assertFalse(CreditCardNumberValidation.prefixMatched(invalidCreditCardNumbers[creditCardNumber],
+					invalidPrefixes[creditCardNumber]));
 		}
 	}
 	
 	@Test
 	public void testGetSize()
 	{
-		int[][] randomNumbers = new int[][] { { (int)(Math.random() * -1000), 0 }, 
-			{ (int)(Math.random() * 10), 1 }, { 10 + (int)(Math.random() * 90), 2 }, 
-			{ 100 + (int)(Math.random() * 900), 3 }, { 1000 + (int)(Math.random() * 9000), 4 } };
+		long[] creditCardNumbers = { (int)(Math.random() * -1000), (int)(Math.random() * 10),
+				10 + (int)(Math.random() * 90), 100 + (int)(Math.random() * 900),
+				1000 + (int)(Math.random() * 9000) };
+		int[] numberOfDigitsForCreditCardNumbers = { 0, 1, 2, 3, 4 };
 		
-		for (int[] number : randomNumbers)
+		for (int creditCardNumber = 0; creditCardNumber < creditCardNumbers.length; creditCardNumber++)
 		{
-			assertEquals(number[1], CreditCardNumberValidation.getSize(number[0]));
+			assertEquals(numberOfDigitsForCreditCardNumbers[creditCardNumber],
+					CreditCardNumberValidation.getSize(creditCardNumbers[creditCardNumber]));
 		}
 	}
 	
 	@Test
 	public void testGetPrefix()
 	{
-		long[][] prefixNumbers = new long[][] { { 4388576018410707L, 1, 4 }, { 4388576018410707L, 4, 4388 }, 
-			{ 4388576018410707L, 6, 438857 }, { 123L, 5, 123 }, { 4388576018410707L, 0, 4388576018410707L },
-			{ 0, 0, 0}, { -56, 1, -56 } };
+		long[] creditCardNumbers = { 0, 4388576018410707L, -56, 4388576018410707L, 4388576018410707L,
+				4388576018410707L, 123 };
+		int[] numberOfDigitsForPrefixes = { 0, 0, 1, 1, 4, 6, 5 };
+		long[] prefixes = { 0, 4388576018410707L, -56, 4, 4388, 438857, 123 };
 		
-		for (long[] number : prefixNumbers)
+		for (int creditCardNumber = 0; creditCardNumber < creditCardNumbers.length; creditCardNumber++)
 		{
-			assertEquals(number[2], CreditCardNumberValidation.getPrefix(number[0], (int)(number[1])));
+			assertEquals(prefixes[creditCardNumber],
+					CreditCardNumberValidation.getPrefix(creditCardNumbers[creditCardNumber],
+							numberOfDigitsForPrefixes[creditCardNumber]));
 		}
 	}
-
 }

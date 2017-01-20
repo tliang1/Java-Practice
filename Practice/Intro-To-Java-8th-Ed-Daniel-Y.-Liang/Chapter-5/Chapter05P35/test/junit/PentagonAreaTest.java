@@ -31,7 +31,8 @@ public class PentagonAreaTest
 	@Parameters
 	public static Collection<Double[]> pentagonalAreasList() 
 	{
-		return Arrays.asList(new Double[][] { { 2.0, 6.881909 }, { 0.0, 0.0 }, { 10.0, 172.04774 }, { -9.0, 0.0 } });
+		return Arrays.asList(new Double[][] { { -9.0, 0.0 }, { 0.0, 0.0 }, { 2.0, 6.881909 },
+			{ 10.0, 172.04774 } });
 	}
 	
 	@Test
@@ -39,5 +40,4 @@ public class PentagonAreaTest
 	{
 		assertEquals(expected, PentagonArea.pentagonArea(s), 0.000001);
 	}
-
 }

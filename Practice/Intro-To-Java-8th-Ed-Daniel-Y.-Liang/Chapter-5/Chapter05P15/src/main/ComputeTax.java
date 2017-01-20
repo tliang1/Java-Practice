@@ -6,7 +6,6 @@ package main;
  */
 public class ComputeTax
 {
-	
 	public static void main(String[] args)
 	{
 		final double STARTING_TAXABLE_INCOME = 50000.0;
@@ -28,12 +27,28 @@ public class ComputeTax
 	}
 
 	/**
-	 * Returns the personal income tax for 2009 with the specified filing status and taxable income.
+	 * Returns the personal income tax for 2009 using the specified filing status and taxable income.
+	 * <ul>
+	 * 	<li>
+	 * 		If the second argument is negative, the tax will be $0.00.
+	 * 	</li>
+	 * </ul>
 	 * <p>
-	 * The available options for filing statuses are 0 for single filers, 1 for married filing jointly, 2 for 
-	 * married filing separately, and 3 for head of household.
-	 * <p>
-	 * If the second argument is negative, the tax will be $0.0.
+	 * The available options for filing statuses are
+	 * <ul>
+	 * 	<li>
+	 * 		0 for single filer
+	 * 	</li>
+	 * 	<li>
+	 * 		1 for married filing jointly
+	 * 	</li>
+	 * 	<li>
+	 * 		2 for married filing separately
+	 * 	</li>
+	 * 	<li>
+	 * 		3 for head of household
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param status			filing status
 	 * @param taxableIncome		taxable income

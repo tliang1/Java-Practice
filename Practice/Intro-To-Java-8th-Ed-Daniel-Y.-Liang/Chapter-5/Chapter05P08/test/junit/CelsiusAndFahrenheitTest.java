@@ -38,15 +38,12 @@ public class CelsiusAndFahrenheitTest
 	@Test
 	public void testCelsiusToFahrenheit()
 	{
-		assertEquals(expected, CelsiusAndFahrenheit.celsiusToFahrenheit(celsius), 
-				0.1);
+		assertEquals(expected, CelsiusAndFahrenheit.celsiusToFahrenheit(celsius), 0.1);
 	}
 
 	@Test
 	public void testFahrenheitToCelsius()
 	{
-		assertEquals(celsius, CelsiusAndFahrenheit.fahrenheitToCelsius(expected), 
-				0.1);
+		assertEquals(celsius, CelsiusAndFahrenheit.fahrenheitToCelsius(expected), 0.1);
 	}
-
 }

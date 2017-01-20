@@ -40,5 +40,4 @@ public class SumOfAllDigitsTest
 	{
 		assertEquals(expected, SumOfAllDigits.sumDigits(n));
 	}
-
 }

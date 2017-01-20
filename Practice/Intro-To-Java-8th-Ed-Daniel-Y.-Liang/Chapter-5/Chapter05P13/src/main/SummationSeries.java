@@ -6,7 +6,6 @@ package main;
  */
 public class SummationSeries
 {
-	
 	public static void main(String[] args)
 	{
 		final int STARTING_NUMBER = 1;
@@ -23,10 +22,14 @@ public class SummationSeries
 	}
 
 	/**
-	 * Returns the summation of the following series with a specified integer argument: 
-	 * m( i ) = (1 / 2) + (2 / 3) + .<!-- -->.<!-- -->.<!-- --> + ( i / ( i + 1)) where i &gt;= 0.
+	 * Returns the summation of the following series using the specified integer argument: 
 	 * <p>
-	 * If i is less than 0, the sum will be 0.0.
+	 * m( i ) = (1 / 2) + (2 / 3) + .<!-- -->.<!-- -->.<!-- --> + ( i / ( i + 1)) where i &gt;= 0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 0, the sum will be 0.0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param i		an integer
 	 * @return		the summation of the series

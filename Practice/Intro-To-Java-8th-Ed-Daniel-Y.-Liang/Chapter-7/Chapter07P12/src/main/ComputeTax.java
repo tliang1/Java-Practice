@@ -26,11 +26,27 @@ public class ComputeTax
 	
 	/**
 	 * Returns the personal income tax for 2009 with the specified filing status and taxable income.
+	 * <ul>
+	 * 	<li>
+	 * 		If the second argument is negative, the tax will be $0.00.
+	 * 	</li>
+	 * </ul>
 	 * <p>
-	 * The available options for filing statuses are 0 for single filers, 1 for married filing jointly, 2 for 
-	 * married filing separately, and 3 for head of household.
-	 * <p>
-	 * If the second argument is negative, the tax will be $0.00.
+	 * The available options for filing statuses are
+	 * <ul>
+	 * 	<li>
+	 * 		0 for single filer
+	 * 	</li>
+	 * 	<li>
+	 * 		1 for married filing jointly
+	 * 	</li>
+	 * 	<li>
+	 * 		2 for married filing separately
+	 * 	</li>
+	 * 	<li>
+	 * 		3 for head of household
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param status			filing status
 	 * @param taxableIncome		taxable income
@@ -39,12 +55,13 @@ public class ComputeTax
 	public static double computeTax(int status, double taxableIncome)
 	{
 		double[] rates = { 0.10, 0.15, 0.25, 0.28, 0.33, 0.35 };
-		int[][] brackets = {
+		int[][] brackets =
+			{
 				{ 8350, 33950, 82250, 171550, 372950 }, // Single filer
 				{ 16700, 67900, 137050, 208850, 372950 }, // Married jointly
 				{ 8350, 33950, 68525, 104425, 186475 }, // Married separately
 				{ 11950, 45500, 117450, 190200, 372950 } // Head of household
-		};
+			};
 		
 		if (taxableIncome < 0.0)
 		{

@@ -35,7 +35,7 @@ public class SortingStudents
 		
 		System.out.println();
 		
-		selectionSortStudents(scores, names);
+		selectionSortStudentsScores(scores, names);
 		
 		System.out.print("List of students ordered from highest score to lowest score: ");
 		
@@ -51,13 +51,16 @@ public class SortingStudents
 	
 	/**
 	 * Sorts the integer and string array arguments using selection sort.
-	 * <p>
-	 * If the integer array's size is not equal to the string array's size, an error will be displayed.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer array's size is not equal to the string array's size, an error will be displayed.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param scores	array of scores
 	 * @param names		array of names
 	 */
-	public static void selectionSortStudents(int[] scores, String[] names) 
+	public static void selectionSortStudentsScores(int[] scores, String[] names) 
 	{
 		if (scores.length != names.length)
 		{

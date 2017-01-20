@@ -8,12 +8,11 @@ import java.util.Scanner;
  */
 public class MeanAndStandardDeviation
 {
-	
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
 		
-		double num1 = 0.0, num2 = 0.0, num3 = 0.0, num4 = 0.0, num5 = 0.0, num6 = 0.0, num7 = 0.0, num8 = 0.0, 
+		double num1 = 0.0, num2 = 0.0, num3 = 0.0, num4 = 0.0, num5 = 0.0, num6 = 0.0, num7 = 0.0, num8 = 0.0,
 				num9 = 0.0, num10 = 0.0;
 		boolean isValidInput = false;
 		
@@ -31,7 +30,7 @@ public class MeanAndStandardDeviation
 			num9 = input.nextDouble();
 			num10 = input.nextDouble();
 			
-			if ((num1 < 0.0) || (num2 < 0.0) || (num3 < 0.0) || (num4 < 0.0) || (num5 < 0.0) || (num6 < 0.0) || 
+			if ((num1 < 0.0) || (num2 < 0.0) || (num3 < 0.0) || (num4 < 0.0) || (num5 < 0.0) || (num6 < 0.0) ||
 				(num7 < 0.0) || (num8 < 0.0) || (num9 < 0.0) || (num10 < 0.0))
 			{
 				continue;
@@ -42,11 +41,11 @@ public class MeanAndStandardDeviation
 			}
 		}
 		
-		double sum = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10; 
+		double sum = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10;
 		
 		System.out.println("The mean is " + mean(sum, 10));
 		
-		double sumOfSquaredNumbers = (num1 * num1) + (num2 * num2) + (num3 * num3) + (num4 * num4) + 
+		double sumOfSquaredNumbers = (num1 * num1) + (num2 * num2) + (num3 * num3) + (num4 * num4) +
 				(num5 * num5) + (num6 * num6) + (num7 * num7) + (num8 * num8) + (num9 * num9) + (num10 * num10);
 		
 		System.out.printf("The standard deviation is %7.5f", standardDeviation(sum, sumOfSquaredNumbers, 10));
@@ -55,11 +54,15 @@ public class MeanAndStandardDeviation
 	}
 	
 	/**
-	 * Returns the mean using the the sum of the numbers and the total numbers.
-	 * <p>
-	 * If the first argument is negative, it will default to 0.0.
-	 * <p>
-	 * If the second argument is less than 2, it will default to 2.
+	 * Returns the mean using the double and integer arguments.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first argument is negative, it will default to 0.0.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the second argument is less than 2, it will default to 2.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param sumOfNumbers	sum of all numbers
 	 * @param totalNumbers	total numbers
@@ -81,13 +84,15 @@ public class MeanAndStandardDeviation
 	}
 	
 	/**
-	 * Returns the standard deviation of the numbers using the sum of the numbers, the sum of the squared numbers, 
-	 * and the total numbers.
+	 * Returns the standard deviation of the numbers using the double and integer arguments.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first argument or second argument is negative or the third argument is less than 2, the standard
+	 * 		deviation will default to zero.
+	 * 	</li>
+	 * </ul>
 	 * <p>
 	 * The sum of the squared numbers is done by squaring each number and adding them together.
-	 * <p>
-	 * If the first argument or second argument is negative or the third argument is less than 2, the standard 
-	 * deviation will default to zero.
 	 * 
 	 * @param sumOfNumbers			sum of all numbers
 	 * @param sumOfSquaredNumbers	sum of the squared numbers
@@ -101,6 +106,7 @@ public class MeanAndStandardDeviation
 			return 0.0;
 		}
 		
-		return Math.sqrt((sumOfSquaredNumbers - (Math.pow(sumOfNumbers, 2.0) / totalNumbers)) / (totalNumbers - 1));
+		return Math.sqrt((sumOfSquaredNumbers - (Math.pow(sumOfNumbers, 2.0) / totalNumbers)) /
+				(totalNumbers - 1));
 	}
 }

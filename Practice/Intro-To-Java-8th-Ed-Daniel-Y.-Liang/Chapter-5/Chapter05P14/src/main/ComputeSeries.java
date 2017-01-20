@@ -6,7 +6,6 @@ package main;
  */
 public class ComputeSeries
 {
-	
 	public static void main(String[] args)
 	{
 		final int STARTING_NUMBER = 10;
@@ -24,11 +23,15 @@ public class ComputeSeries
 	}
 
 	/**
-	 * Returns the summation of the following series with a specified integer argument: 
+	 * Returns the summation of the following series with the specified integer argument:
+	 * <p>
 	 * m( i ) = 4 (1 - (1 / 3) + (1 / 5) - (1 / 7) + (1 / 9) - (1 / 11) + .<!-- -->.<!-- -->.<!-- --> + 
 	 * (1 / (2i - 1)) - (1 / (2i + 1))) where i &gt;= 0.
-	 * <p>
-	 * If i is less than 1, the sum will be 4.0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 1, the sum will be 4.0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param i		number of iterations
 	 * @return		the summation of the series

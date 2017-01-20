@@ -2,9 +2,6 @@ package junit;
 
 import static org.junit.Assert.*;
 
-import java.util.Arrays;
-import java.util.Collection;
-
 import org.junit.Test;
 
 import main.PalindromePrimes;
@@ -15,39 +12,38 @@ import main.PalindromePrimes;
  */
 public class PalindromePrimesTest
 {
-	
-	Collection<Object[]> numbers = Arrays.asList(new Object[][] { { 2, true, 2, true }, { 787, true, 787, true },
-		{ 34543, true, 34543, true }, { 1, false, 1, true }, { 0, false, 0, true }, { -5, false, -5, true }, 
-		{ -50, false, -5, false }, { 17, true, 71, false }, { 129, false, 921, false } }); 
+	int[] numbers = { -50, 129, -5, 0, 1, 17, 2, 787, 34543 };
 	
 	@Test
 	public void testIsPrime()
 	{
-		for (Object[] number : numbers)
+		boolean[] primeOrNot = { false, false, false, false, false, true, true, true, true };
+		
+		for (int number = 0; number < numbers.length; number++)
 		{
-			int num = (int) number[0];
-			assertEquals(number[1], PalindromePrimes.isPrime(num));
+			assertEquals(primeOrNot[number], PalindromePrimes.isPrime(numbers[number]));
 		}
 	}
 	
 	@Test
 	public void testReverse()
 	{
-		for (Object[] number : numbers)
+		int[] reverseNumbers = { -5, 921, -5, 0, 1, 71, 2, 787, 34543 };
+		
+		for (int number = 0; number < numbers.length; number++)
 		{
-			int num = (int) number[0];
-			assertEquals(number[2], PalindromePrimes.reverse(num));
+			assertEquals(reverseNumbers[number], PalindromePrimes.reverse(numbers[number]));
 		}
 	}
 	
 	@Test
 	public void testIsPalindrome()
 	{
-		for (Object[] number : numbers)
+		boolean[] palindromeOrNot = { false, false, true, true, true, false, true, true, true };
+		
+		for (int number = 0; number < numbers.length; number++)
 		{
-			int num = (int) number[0];
-			assertEquals(number[3], PalindromePrimes.isPalindrome(num));
+			assertEquals(palindromeOrNot[number], PalindromePrimes.isPalindrome(numbers[number]));
 		}
 	}
-
 }

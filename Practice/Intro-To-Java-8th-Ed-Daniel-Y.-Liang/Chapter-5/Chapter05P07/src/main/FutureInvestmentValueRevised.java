@@ -8,12 +8,11 @@ import java.util.Scanner;
  */
 public class FutureInvestmentValueRevised
 {
-	
 	public static void main(String[] args)
 	{
-		int YEARS_TO_INVESTMENT = 30;
-		
 		Scanner input = new Scanner(System.in);
+		
+		int YEARS_TO_INVESTMENT = 30;
 		
 		System.out.print("Enter investment amount: ");
 		double investmentAmount = input.nextDouble();
@@ -51,13 +50,18 @@ public class FutureInvestmentValueRevised
 	}
 
 	/**
-	 * Returns the future investment value using the specified invest amount, monthly interest rate, and years.
-	 * <p>
-	 * If the first argument is negative, the future investment value will be 0.0.
-	 * <p>
-	 * If the second argument is negative, it will default to 0.0.
-	 * <p>
-	 * If the third argument is less than 1, it will default to 1.
+	 * Returns the future investment value using the specified investment amount, monthly interest rate, and years.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first argument is negative, the future investment value will be 0.0.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the second argument is negative, it will default to 0.0.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the third argument is less than 1, it will default to 1.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param investmentAmount		amount of money to invest
 	 * @param monthlyInterestRate	monthly interest rate (e.g., 0.03 for 3% rate)

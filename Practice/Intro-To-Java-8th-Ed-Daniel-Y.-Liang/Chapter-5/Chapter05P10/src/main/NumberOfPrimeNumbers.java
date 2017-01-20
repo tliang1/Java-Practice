@@ -6,7 +6,6 @@ package main;
  */
 public class NumberOfPrimeNumbers
 {
-	
 	public static void main(String[] args)
 	{
 		final int MAX_NUMBER = 10000;
@@ -17,8 +16,11 @@ public class NumberOfPrimeNumbers
 
 	/**
 	 * Returns the number of prime numbers less than the integer argument.
-	 * <p>
-	 * If the max number is less than 3, the number of prime numbers will be 0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 3, the number of prime numbers will default to be 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param maxNumber		max range
 	 * @return				the number of prime numbers
@@ -48,11 +50,14 @@ public class NumberOfPrimeNumbers
 	
 	/**
 	 * Returns if the integer argument is prime.
-	 * <p>
-	 * If the number is less than 2, the number is not prime.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 2, the integer is not prime.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param number	an integer to test for primeness
-	 * @return			true if number is prime. Otherwise, false.
+	 * @return			true if the number is prime. Otherwise, false.
 	 */
 	public static boolean isPrime(int number)
 	{

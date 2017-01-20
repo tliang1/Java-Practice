@@ -8,7 +8,6 @@ import java.util.Scanner;
  */
 public class SumOfAllDigits
 {
-	
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
@@ -22,7 +21,7 @@ public class SumOfAllDigits
 	}
 
 	/**
-	 * Returns the sum of all digits of the number.
+	 * Returns the sum of all digits of the long argument.
 	 * 
 	 * @param n		a number
 	 * @return		sum of all digits of the number

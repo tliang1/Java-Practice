@@ -9,7 +9,6 @@ import java.util.Scanner;
  */
 public class AnalyzingScores
 {
-	
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
@@ -19,7 +18,6 @@ public class AnalyzingScores
 		final int MAX_NUMBER_OF_SCORES = 10;
 		int[] scores = new int[MAX_NUMBER_OF_SCORES];
 		Arrays.fill(scores, -1);
-		
 		int score = 0;
 		int currentIndex = 0;
 		

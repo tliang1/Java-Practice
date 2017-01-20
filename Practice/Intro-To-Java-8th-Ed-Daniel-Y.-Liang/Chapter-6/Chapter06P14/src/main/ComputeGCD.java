@@ -17,7 +17,7 @@ public class ComputeGCD
 		
 		System.out.print("Enter five numbers: ");
 		
-		for(int count = 0; count < integers.length; count++)
+		for (int count = 0; count < integers.length; count++)
 		{
 			integers[count] = input.nextInt();
 		}
@@ -29,9 +29,14 @@ public class ComputeGCD
 	
 	/**
 	 * Returns the greatest common divisor of the integer(s) in the integer variable-length argument.
-	 * <p>
-	 * If the argument is not provided or all the integers are zeroes, the gcd will default to 0. If the argument is
-	 * only one integer, the gcd will default to the integer.
+	 * <ul>
+	 * 	<li>
+	 * 		If the argument is not provided or all the integers are zeroes, the gcd will default to 0.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the argument is only one integer, the gcd will default to the integer.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param numbers	array of integers
 	 * @return			the greatest common divisor of the integer(s) in the integer variable-length argument.
@@ -71,9 +76,9 @@ public class ComputeGCD
 				{
 					int k = 2;
 					
-					while (k <= Math.abs(currentGCD) && k <= Math.abs(numbers[index]))
+					while ((k <= Math.abs(currentGCD)) && (k <= Math.abs(numbers[index])))
 					{
-						if (currentGCD % k == 0 && numbers[index] % k == 0)
+						if ((currentGCD % k == 0) && (numbers[index] % k == 0))
 						{
 							gcd = k;
 						}

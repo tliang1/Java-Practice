@@ -17,16 +17,16 @@ public class Combinations
 		
 		System.out.print("Enter ten integers: ");
 		
-		for(int count = 0; count < integers.length; count++)
+		for (int count = 0; count < integers.length; count++)
 		{
 			integers[count] = input.nextInt();
 		}
 		
 		System.out.println("List of all combinations of picking two integers from the ten integers:");
 		
-		for(int firstInteger = 0; firstInteger < integers.length; firstInteger++)
+		for (int firstInteger = 0; firstInteger < integers.length; firstInteger++)
 		{
-			for(int secondInteger = firstInteger + 1; secondInteger < integers.length; secondInteger++)
+			for (int secondInteger = firstInteger + 1; secondInteger < integers.length; secondInteger++)
 			{
 				System.out.println(integers[firstInteger] + " " + integers[secondInteger]);
 			}

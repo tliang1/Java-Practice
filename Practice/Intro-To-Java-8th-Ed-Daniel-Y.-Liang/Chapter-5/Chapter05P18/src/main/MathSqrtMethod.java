@@ -6,7 +6,6 @@ package main;
  */
 public class MathSqrtMethod
 {
-	
 	public static void main(String[] args)
 	{
 		final int STARTING_NUMBER = 0;
@@ -22,5 +21,4 @@ public class MathSqrtMethod
 		
 		System.out.println();
 	}
-
 }

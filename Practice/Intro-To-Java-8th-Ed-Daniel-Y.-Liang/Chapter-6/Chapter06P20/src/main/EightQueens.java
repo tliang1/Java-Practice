@@ -36,9 +36,12 @@ public class EightQueens
 
 	/**
 	 * Returns the valid column to place the queen given the integer argument and the integer array argument.
-	 * <p>
-	 * If the row is negative or greater than or equal to the integer array's size or if every column is invalid,
-	 * the column will default to -1.
+	 * <ul>
+	 * 	<li>
+	 * 		If the row is negative or greater than or equal to the integer array's size or if every column is
+	 * 		invalid, the column will default to -1.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param row				queen's row
 	 * @param queenPositions	array of queens positions
@@ -68,9 +71,12 @@ public class EightQueens
 	/**
 	 * Returns if the queen placed at (row, column) is valid given the integer arguments and the integer array 
 	 * argument.
-	 * <p>
-	 * If the row and/or column is negative or greater than or equal to the integer array's size, the placement
-	 * of the queen will default to being invalid.
+	 * <ul>
+	 * 	<li>
+	 * 		If the row and/or column is negative or greater than or equal to the integer array's size, the
+	 * 		placement of the queen will default to being invalid.
+	 * 	</li>
+	 * </ul>
 	 * <p>
 	 * A valid queen position is not in the same row, column, and diagonal of the other queens' positions in the
 	 * integer array.

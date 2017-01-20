@@ -17,7 +17,7 @@ public class MeanAndStandardDeviationRevised
 		
 		System.out.print("Enter ten numbers: ");
 		
-		for(int count = 0; count < NUMBER_OF_DOUBLE_VALUES; count++)
+		for (int count = 0; count < NUMBER_OF_DOUBLE_VALUES; count++)
 		{
 			numbers[count] = input.nextDouble();
 		}
@@ -31,8 +31,11 @@ public class MeanAndStandardDeviationRevised
 	
 	/**
 	 * Returns the standard deviation of the double values in the double array argument.
-	 * <p>
-	 * If the double array's size is less than 2, the standard deviation will default to 0.0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the double array's size is less than 2, the standard deviation will default to 0.0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param x		array of double values
 	 * @return		the standard deviation of the double values
@@ -45,7 +48,6 @@ public class MeanAndStandardDeviationRevised
 		}
 		
 		double sum = 0.0;
-		
 		double mean = mean(x);
 		
 		for (int index = 0; index < x.length; index++)
@@ -60,20 +62,23 @@ public class MeanAndStandardDeviationRevised
 	
 	/**
 	 * Returns the mean of the double values in the double array argument.
-	 * <p>
-	 * If the double array's size is 0, the mean will default to 0.0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the double array's size is 0, the mean will default to 0.0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param x		array of double values
 	 * @return		the mean of the double values
 	 */
 	public static double mean(double[] x)
 	{
-		double sum = 0.0;
-		
 		if (x.length == 0)
 		{
-			return sum;
+			return 0.0;
 		}
+		
+		double sum = 0.0;
 		
 		for (double number : x)
 		{

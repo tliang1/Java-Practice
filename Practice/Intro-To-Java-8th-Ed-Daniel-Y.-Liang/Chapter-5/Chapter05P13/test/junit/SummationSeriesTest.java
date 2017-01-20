@@ -31,7 +31,7 @@ public class SummationSeriesTest
 	@Parameters
 	public static Collection<Object[]> summationList() 
 	{
-		return Arrays.asList(new Object[][] { { 1, 0.5 }, { 19, 16.4023 }, { 0, 0.0 }, { -5, 0.0 } });
+		return Arrays.asList(new Object[][] { { 0, 0.0 }, { -5, 0.0 }, { 1, 0.5 }, { 19, 16.4023 } });
 	}
 	
 	@Test
@@ -39,5 +39,4 @@ public class SummationSeriesTest
 	{
 		assertEquals(expected, SummationSeries.computeSummationSeries(i), 0.0001);
 	}
-
 }

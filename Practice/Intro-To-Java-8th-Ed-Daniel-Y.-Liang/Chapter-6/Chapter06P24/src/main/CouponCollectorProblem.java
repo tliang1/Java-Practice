@@ -12,7 +12,6 @@ public class CouponCollectorProblem
 		final int NUMBER_OF_RANKS = 13;
 		final int NUMBER_OF_CARDS = 52;
 		int[] suits = new int[NUMBER_OF_SUITS];
-		
 		int picks = 0;
 		int suitsPicked = 0;
 		
@@ -26,7 +25,6 @@ public class CouponCollectorProblem
 			}
 			
 			suits[(card - 1) / NUMBER_OF_RANKS] = card;
-			
 			picks++;
 		}
 		
@@ -40,8 +38,11 @@ public class CouponCollectorProblem
 	
 	/**
 	 * Displays the rank and suit of the specified integer argument.
-	 * <p>
-	 * If the integer argument is not between 1 and 52 inclusive, an error will be displayed.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is not between 1 and 52 inclusive, an error will be displayed.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param card	card number
 	 */

@@ -19,10 +19,14 @@ public class PointsOnTheSameLine
 	
 	/**
 	 * Returns if the set of points are on the same line given the double two-dimensional array argument.
-	 * <p>
-	 * If not every point in the set has the same number of coordinates, then it will default to false.
-	 * <br>
-	 * If the set only has one point, then it will default to true.
+	 * <ul>
+	 * 	<li>
+	 * 		If not every point in the set has the same number of coordinates, then it will default to false.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the set only has one point, then it will default to true.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param set	set of points
 	 * @return		true if the set of points are on the same line. Otherwise, false.

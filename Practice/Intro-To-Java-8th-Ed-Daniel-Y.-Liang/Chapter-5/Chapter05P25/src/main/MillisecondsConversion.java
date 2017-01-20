@@ -6,7 +6,6 @@ package main;
  */
 public class MillisecondsConversion
 {
-	
 	public static void main(String[] args)
 	{
 		System.out.println(convertMillis(5500));
@@ -15,9 +14,12 @@ public class MillisecondsConversion
 	}
 
 	/**
-	 * Returns a string as hours:minutes:seconds by converting the specified milliseconds.
-	 * <p>
-	 * If the long argument is negative, the string will default to 0:0:0.
+	 * Returns a string as hours:minutes:seconds by converting the specified long argument.
+	 * <ul>
+	 * 	<li>
+	 * 		If the long argument is negative, the string will default to 0:0:0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param millis	milliseconds
 	 * @return			a string as hours:minutes:seconds

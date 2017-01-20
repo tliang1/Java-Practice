@@ -17,13 +17,16 @@ public class RandomNumberChooser
 	/**
 	 * Returns a random integer between 1 and 54 inclusive and excluding the integers in the integer variable-length
 	 * argument.
-	 * <p>
-	 * If the argument is not provided or it excludes all integers between 1 and 54 inclusive, a random integer
-	 * between 1 and 54 inclusive is returned.
+	 * <ul>
+	 * 	<li>
+	 * 		If the argument is not provided or it excludes all integers between 1 and 54 inclusive, a random integer
+	 * 		between 1 and 54 inclusive is returned.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param numbers	array of integers
 	 * @return			a random integer between 1 and 54 inclusive and excluding the integers in the integer
-	 * variable-length argument
+	 * 					variable-length argument
 	 */
 	public static int getRandom(int... numbers)
 	{

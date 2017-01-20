@@ -6,12 +6,12 @@ package main;
  */
 public class MersennePrimes
 {
-	
 	public static void main(String[] args)
 	{
-		final int MAX_NUMBER = 31;
 		System.out.printf("%2s\t   %10s", "p", "2&p - 1");
 		System.out.println();
+		
+		final int MAX_NUMBER = 31;
 		int number = 2;
 		
 		while (number <= MAX_NUMBER)
@@ -28,9 +28,12 @@ public class MersennePrimes
 	}
 
 	/**
-	 * Returns if the number is prime.
-	 * <p>
-	 * If the integer argument is less than 2, the number will be considered not prime.
+	 * Returns if the integer argument is prime.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 2, the number will be considered not prime.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param number	a number
 	 * @return			true if number is prime. Otherwise, false.
@@ -54,9 +57,12 @@ public class MersennePrimes
 	}
 	
 	/**
-	 * Returns the Mersenne prime number.
-	 * <p>
-	 * If the integer argument is less than 2, the Mersenne prime number will default to 0.
+	 * Returns the Mersenne prime number using the integer argument.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 2, the Mersenne prime number will default to 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param number	a number
 	 * @return			the Mersenne prime number
@@ -72,10 +78,13 @@ public class MersennePrimes
 	}
 	
 	/**
-	 * Returns if the number generates a Mersenne prime number.
-	 * <p>
-	 * If the integer argument is less than 2, the number will be considered not able to generate a Mersenne prime 
-	 * number.
+	 * Returns if the integer argument generates a Mersenne prime number.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is less than 2, the number will be considered not able to generate a Mersenne
+	 * 		prime number.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param number	a number
 	 * @return			true if the number generates a Mersenne prime number. Otherwise, false.

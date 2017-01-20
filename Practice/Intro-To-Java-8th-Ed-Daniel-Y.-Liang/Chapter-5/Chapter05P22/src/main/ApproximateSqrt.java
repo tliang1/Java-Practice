@@ -8,10 +8,10 @@ import java.util.Scanner;
  */
 public class ApproximateSqrt
 {
-	
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
+		
 		double num = -1.0;
 		
 		while (num < 0.0)
@@ -26,9 +26,12 @@ public class ApproximateSqrt
 	}
 
 	/**
-	 * Returns the approximated square root of the number.
-	 * <p>
-	 * If the number is negative, the default value 0.0 will be returned.
+	 * Returns the approximated square root of the double argument.
+	 * <ul>
+	 * 	<li>
+	 * 		If the double argument is negative, the approximated square root will default to 0.0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param num	a positive number
 	 * @return		the approximated square root of the number

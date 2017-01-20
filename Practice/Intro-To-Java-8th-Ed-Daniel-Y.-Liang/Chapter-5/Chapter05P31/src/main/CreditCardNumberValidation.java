@@ -8,10 +8,10 @@ import java.util.Scanner;
  */
 public class CreditCardNumberValidation
 {
-	
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
+		
 		long creditCardNumber = -1;
 		
 		while (creditCardNumber < 0)
@@ -59,14 +59,23 @@ public class CreditCardNumberValidation
 	
 	/**
 	 * Returns the sum of all doubled digits in the even places of the long argument from right to left.
-	 * <p>
+	 * <ul>
+	 * 	<li>
+	 * 		If the long argument is less than 1, the sum will default to 0.
+	 * 	</li>
+	 * </ul>
+	 * <br>
 	 * Example: 123456789 
 	 * <p>
-	 * 8*2 = 16 = 1+6 = 7, 6*2 = 12 = 1+2 = 3, 4*2 = 8, 2*2 = 4
+	 * 8*2 = 16 = 1+6 = 7
+	 * <br>
+	 * 6*2 = 12 = 1+2 = 3
+	 * <br>
+	 * 4*2 = 8
+	 * <br>
+	 * 2*2 = 4
 	 * <p>
 	 * 7 + 3 + 8 + 4 = 22.
-	 * <p>
-	 * If the number is less than 1, the sum will default to 0.
 	 * 
 	 * @param number	a number
 	 * @return			the sum of all doubled digits in the even places of the number from right to left
@@ -93,8 +102,11 @@ public class CreditCardNumberValidation
 	
 	/**
 	 * Returns the sum of all digits of the integer argument.
-	 * <p>
-	 * If the integer argument is negative or greater than 18, the sum will be default to 0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the integer argument is negative or greater than 18, the sum will be default to 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param number	a positive integer
 	 * @return			the sum of all digits of the number
@@ -118,8 +130,11 @@ public class CreditCardNumberValidation
 	
 	/**
 	 * Returns the sum of all digits in the odd places of the long argument from right to left.
-	 * <p>
-	 * If the number is less than 1, the sum will default to 0;
+	 * <ul>
+	 * 	<li>
+	 * 		If the number is less than 1, the sum will default to 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param number	a number
 	 * @return			the sum of all digits in the odd places of the number from right to left
@@ -144,9 +159,12 @@ public class CreditCardNumberValidation
 	
 	/**
 	 * Returns if the second argument is the prefix of the first argument.
-	 * <p>
-	 * If the first or second argument are negative, the prefix will be considered not a match with the number's
-	 * prefix.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first or second argument are negative, the prefix will be considered not a match with the
+	 * 		number's prefix.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param number	a number
 	 * @param d			prefix
@@ -171,8 +189,11 @@ public class CreditCardNumberValidation
 	
 	/**
 	 * Returns the number of digits of the long argument.
-	 * <p>
-	 * If the long argument is negative, the number of digits will default to 0.
+	 * <ul>
+	 * 	<li>
+	 * 		If the long argument is negative, the number of digits will default to 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param d		a number
 	 * @return		the number of digits of the number
@@ -192,8 +213,8 @@ public class CreditCardNumberValidation
 		
 		while (d != 0)
 		{
-			size++;
 			d /= 10;
+			size++;
 		}
 		
 		return size;
@@ -201,9 +222,12 @@ public class CreditCardNumberValidation
 	
 	/**
 	 * Returns the first k digits of the long argument.
-	 * <p>
-	 * If the first argument is less than the first k digits or is negative or the second argument is less than 1, 
-	 * the first argument is the prefix.
+	 * <ul>
+	 * 	<li>
+	 * 		If the first argument is less than the first k digits or is negative or the second argument is less
+	 * 		than 1, the first argument is the prefix.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param number	a number
 	 * @param k			number of digits of the prefix
