@@ -3,7 +3,7 @@ package main;
 import java.util.Scanner;
 
 /**
- * @author Tony
+ * @author Tony Liang
  *
  */
 public class FourSameConsecutiveNumbersInTwoDimensionalArray
@@ -198,13 +198,11 @@ public class FourSameConsecutiveNumbersInTwoDimensionalArray
 				{
 					int currentConsecutiveIntegerForMajorDiagonal = values[row][0];
 					int countConsecutiveIntegersForMajorDiagonal = 0;
-					int maxCols = (values.length > values[0].length) ? values[0].length : values.length;
 					
-					for (int col = 0, reverseCol = (values[0].length - 1);
-							(col < maxCols) && (reverseCol >= 0) && ((row + col) < maxCols);
-							col++, reverseCol--)
+					for (int currentRow = row, col = 0; (currentRow < values.length) && (col < values[0].length);
+							currentRow++, col++)
 					{
-						if (values[row + col][col] == currentConsecutiveIntegerForMajorDiagonal)
+						if (values[currentRow][col] == currentConsecutiveIntegerForMajorDiagonal)
 						{
 							countConsecutiveIntegersForMajorDiagonal++;
 							
@@ -213,13 +211,13 @@ public class FourSameConsecutiveNumbersInTwoDimensionalArray
 								return true;
 							}
 						}
-						else if ((row + col) > (maxCols - 4))
+						else if (currentRow > (values.length - 4))
 						{
 							break;
 						}
 						else
 						{
-							currentConsecutiveIntegerForMajorDiagonal = values[row + col][col];
+							currentConsecutiveIntegerForMajorDiagonal = values[currentRow][col];
 							countConsecutiveIntegersForMajorDiagonal = 1;
 						}
 					}
@@ -227,11 +225,10 @@ public class FourSameConsecutiveNumbersInTwoDimensionalArray
 					int currentConsecutiveIntegerForSubDiagonal = values[row][values[0].length - 1];
 					int countConsecutiveIntegersForSubDiagonal = 0;
 					
-					for (int col = 0, reverseCol = (values[0].length - 1);
-							(col < maxCols) && (reverseCol >= 0) && ((row + col) < maxCols);
-							col++, reverseCol--)
+					for (int currentRow = row, reverseCol = (values[0].length - 1);
+							(currentRow < values.length) && (reverseCol >= 0); currentRow++, reverseCol--)
 					{
-						if (values[row + col][reverseCol] == currentConsecutiveIntegerForSubDiagonal)
+						if (values[currentRow][reverseCol] == currentConsecutiveIntegerForSubDiagonal)
 						{
 							countConsecutiveIntegersForSubDiagonal++;
 							
@@ -240,13 +237,13 @@ public class FourSameConsecutiveNumbersInTwoDimensionalArray
 								return true;
 							}
 						}
-						else if ((row + col) > (maxCols - 4))
+						else if (currentRow > (values.length - 4))
 						{
 							break;
 						}
 						else
 						{
-							currentConsecutiveIntegerForSubDiagonal = values[row + col][reverseCol];
+							currentConsecutiveIntegerForSubDiagonal = values[currentRow][reverseCol];
 							countConsecutiveIntegersForSubDiagonal = 1;
 						}
 					}
@@ -260,11 +257,12 @@ public class FourSameConsecutiveNumbersInTwoDimensionalArray
 					int currentConsecutiveIntegerForMajorDiagonal = values[0][col];
 					int currentConsecutiveIntegerForSubDiagonal = values[0][reverseCol];
 					int countConsecutiveIntegersForMajorDiagonal = 0, countConsecutiveIntegersForSubDiagonal = 0;
-					int maxRows = (values.length > values[0].length) ? values[0].length : values.length;
 					
-					for (int row = 0; (row < maxRows) && ((row + col) < maxRows); row++)
+					for (int row = 0, currentColumn = col, currentReverseColumn = reverseCol;
+							(row < values.length) && (currentColumn < values[0].length) &&
+							(currentReverseColumn >= 0); row++, currentColumn++, currentReverseColumn--)
 					{
-						if (values[row][row + col] == currentConsecutiveIntegerForMajorDiagonal)
+						if (values[row][currentColumn] == currentConsecutiveIntegerForMajorDiagonal)
 						{
 							countConsecutiveIntegersForMajorDiagonal++;
 							
@@ -275,11 +273,11 @@ public class FourSameConsecutiveNumbersInTwoDimensionalArray
 						}
 						else
 						{
-							currentConsecutiveIntegerForMajorDiagonal = values[row][row + col];
+							currentConsecutiveIntegerForMajorDiagonal = values[row][currentColumn];
 							countConsecutiveIntegersForMajorDiagonal = 1;
 						}
 						
-						if (values[row][reverseCol - row] == currentConsecutiveIntegerForSubDiagonal)
+						if (values[row][currentReverseColumn] == currentConsecutiveIntegerForSubDiagonal)
 						{
 							countConsecutiveIntegersForSubDiagonal++;
 							
@@ -290,7 +288,7 @@ public class FourSameConsecutiveNumbersInTwoDimensionalArray
 						}
 						else
 						{
-							currentConsecutiveIntegerForSubDiagonal = values[row][reverseCol - row];
+							currentConsecutiveIntegerForSubDiagonal = values[row][currentReverseColumn];
 							countConsecutiveIntegersForSubDiagonal = 1;
 						}
 					}

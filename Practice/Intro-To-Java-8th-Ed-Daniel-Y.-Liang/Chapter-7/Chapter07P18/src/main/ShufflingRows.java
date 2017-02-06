@@ -1,7 +1,7 @@
 package main;
 
 /**
- * @author Tony
+ * @author Tony Liang
  *
  */
 public class ShufflingRows

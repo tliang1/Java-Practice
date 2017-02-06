@@ -7,7 +7,7 @@ import org.junit.Test;
 import main.FourSameConsecutiveNumbersInTwoDimensionalArray;
 
 /**
- * @author Tony
+ * @author Tony Liang
  *
  */
 public class FourSameConsecutiveNumbersInTwoDimensionalArrayTest

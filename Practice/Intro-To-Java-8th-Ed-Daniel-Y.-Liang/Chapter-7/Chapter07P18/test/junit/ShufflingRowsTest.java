@@ -9,7 +9,7 @@ import org.junit.Test;
 import main.ShufflingRows;
 
 /**
- * @author Tony
+ * @author Tony Liang
  *
  */
 public class ShufflingRowsTest
