@@ -139,7 +139,7 @@ public class SudokuTest
 	boolean[] validSudokusOrNot = { false, false, false, false, false, false, true, true, true, true };
 	
 	@Test
-	public void testIsValidGrid()
+	public void testIsValid()
 	{
 		for (int list = 0; list < listsOfSudokuPuzzles.length; list++)
 		{	
