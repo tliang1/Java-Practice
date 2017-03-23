@@ -1,4 +1,4 @@
-#Leap Years by Tony Liang
+# Leap Years by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,9 +10,9 @@ Leap Year Validation
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-4/Chapter04P27/images/instructions/leap_year_validation.png "Leap Year Validation"
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

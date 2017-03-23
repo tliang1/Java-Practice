@@ -1,12 +1,12 @@
-#ASCII Code To Character by Tony Liang
+# ASCII Code To Character by Tony Liang
 
 Made using Java SE 1.8.
 
 Converts the ASCII code to its character.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,5 +17,5 @@ Converts the ASCII code to its character.
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click ASCIICodeToCharacter.java.
 9. Run the program.
 
-#How To Use
-1. Enter the ASCII code(An integer between 0 and 128 inclusive).
+# How To Use
+1. Enter the ASCII code (An integer between 0 and 128 inclusive).

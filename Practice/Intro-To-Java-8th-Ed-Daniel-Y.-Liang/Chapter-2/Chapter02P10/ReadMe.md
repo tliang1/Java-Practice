@@ -1,12 +1,12 @@
-#Compute Change GUI by Tony Liang
+# Compute Change GUI by Tony Liang
 
 Made using Java SE 1.8.
 
 Displays the amount of money in dollars, quarters, dimes, nickels, and pennies.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,7 +17,7 @@ Displays the amount of money in dollars, quarters, dimes, nickels, and pennies.
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click ComputeChangeGUI.java.
 9. Run the program.
 
-#How To Use
-1. Enter the amount of money without the decimal point(e.g., 1156 for $11.56).
+# How To Use
+1. Enter the amount of money without the decimal point (e.g., 1156 for $11.56).
 2. Click OK to see the results.
 3. Click OK to quit the program.

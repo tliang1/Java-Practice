@@ -1,12 +1,12 @@
-#Divisible By Five And Six by Tony Liang
+# Divisible By Five And Six by Tony Liang
 
 Made using Java SE 1.8.
 
 Displays all the integers that are divisible by five and six between 100 and 1000 inclusive.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

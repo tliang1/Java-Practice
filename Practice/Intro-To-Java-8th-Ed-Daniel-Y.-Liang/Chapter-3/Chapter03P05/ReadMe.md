@@ -1,12 +1,12 @@
-#Three Digits Addition Quiz by Tony Liang
+# Three Digits Addition Quiz by Tony Liang
 
 Made using Java SE 1.8.
 
 Simple single-digit addition quiz game. Generates three random positive integers under 10 and asks the user for the sum of the three integers. Then, it checks if the answer is correct.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,5 +17,5 @@ Simple single-digit addition quiz game. Generates three random positive integers
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click ThreeDigitsAdditionQuiz.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the sum of the three integers.

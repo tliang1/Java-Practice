@@ -1,12 +1,12 @@
-#Circles Overlap by Tony Liang
+# Circles Overlap by Tony Liang
 
 Made using Java SE 1.8.
 
 Given two circles with their center points and radii, checks if the second circle is inside the first circle or overlaps the first circle or neither.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,6 +17,6 @@ Given two circles with their center points and radii, checks if the second circl
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click CirclesOverlap.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the first circle's center point and its radius. The x and the y coordinates and the radius must be separated by a space. No commas.
 2. Enter the second circle's center point and its radius. The x and the y coordinates and the radius must be separated by a space. No commas.

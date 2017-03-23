@@ -1,4 +1,4 @@
-#Minimum Runaway Length by Tony Liang
+# Minimum Runaway Length by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,9 +10,9 @@ Minimum Runaway Length Formula
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-2/Chapter02P24/images/instructions/minimum_runaway_length_formula.png "Minimum Runaway Length Formula"
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -23,5 +23,5 @@ Minimum Runaway Length Formula
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click MinimumRunawayLength.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the take-off speed in meters per second and the acceleration in meters per second squared. The take-off speed and the acceleration must be separated by a space. No commas.

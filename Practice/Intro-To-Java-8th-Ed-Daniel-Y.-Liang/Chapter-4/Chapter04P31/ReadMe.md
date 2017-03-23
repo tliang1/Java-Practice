@@ -1,4 +1,4 @@
-#CD Value by Tony Liang
+# CD Value by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,9 +10,9 @@ CD Value Formula
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-4/Chapter04P31/images/instructions/cd_value_formula.png "CD Value Formula"
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -23,7 +23,7 @@ CD Value Formula
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click CDValue.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the amount.
-2. Enter the annual percentage yield(e.g., 5.75 for 5.75%).
+2. Enter the annual percentage yield (e.g., 5.75 for 5.75%).
 3. Enter the number of months.

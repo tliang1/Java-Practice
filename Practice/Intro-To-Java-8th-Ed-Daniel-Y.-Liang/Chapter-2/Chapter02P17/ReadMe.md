@@ -1,4 +1,4 @@
-#Wind Chill Temperature by Tony Liang
+# Wind Chill Temperature by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,9 +10,9 @@ Wind Chill Temperature Formula
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-2/Chapter02P17/images/instructions/wind_chill_temperature_formula.png "Wind Chill Temperature Formula"
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -23,6 +23,6 @@ Wind Chill Temperature Formula
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click WindChillTemperature.java.
 9. Run the program.
 
-#How To Use
-1. Enter the outside temperature in degrees Fahrenheit(Must be between -58°F and 41°F inclusive).
-2. Enter the wind speed in miles per hour(Must be greater than or equal to 2 mph).
+# How To Use
+1. Enter the outside temperature in degrees Fahrenheit (Must be between -58°F and 41°F inclusive).
+2. Enter the wind speed in miles per hour (Must be greater than or equal to 2 mph).

@@ -1,12 +1,12 @@
-#Sum Of All Digits by Tony Liang
+# Sum Of All Digits by Tony Liang
 
 Made using Java SE 1.8.
 
 Computes the sum of all digits of an integer between 0 and 1000 inclusive.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,5 +17,5 @@ Computes the sum of all digits of an integer between 0 and 1000 inclusive.
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click SumOfAllDigits.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter an integer between 0 and 1000 inclusive.

@@ -1,4 +1,4 @@
-#Miles Kilometers Table by Tony Liang
+# Miles Kilometers Table by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -12,9 +12,9 @@ Miles  | Kilometers  | Kilometers  | Miles
 9      | 14.481      | 60          | 37.290
 10     | 16.090      | 65          | 40.398
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

@@ -1,12 +1,12 @@
-#Leap Year by Tony Liang
+# Leap Year by Tony Liang
 
 Made using Java SE 1.8.
 
 Checks if the given year is a leap year. 
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,7 +17,7 @@ Checks if the given year is a leap year.
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click LeapYear.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the year.
 2. Click Ok see the result.
 3. Click OK to quit the program.

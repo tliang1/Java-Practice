@@ -1,4 +1,4 @@
-#Kilograms Pounds Table by Tony Liang
+# Kilograms Pounds Table by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -12,9 +12,9 @@ Kilograms  | Pounds  | Pounds  | Kilograms
 197        | 433.4   | 510     | 231.82
 199        | 437.8   | 515     | 234.09
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

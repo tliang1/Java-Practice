@@ -1,12 +1,12 @@
-#Sort Three Integers by Tony Liang
+# Sort Three Integers by Tony Liang
 
 Made using Java SE 1.8.
 
 Sorts three integers from least to greatest.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,7 +17,7 @@ Sorts three integers from least to greatest.
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click SortThreeIntegers.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the first integer and click OK.
 2. Enter the second integer and click OK.
 3. Enter the third integer.

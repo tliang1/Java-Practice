@@ -1,4 +1,4 @@
-#Print Table by Tony Liang
+# Print Table by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -12,9 +12,9 @@ a    | b    | pow(a, b)
 4    | 5    | 1024
 5    | 6    | 15625
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

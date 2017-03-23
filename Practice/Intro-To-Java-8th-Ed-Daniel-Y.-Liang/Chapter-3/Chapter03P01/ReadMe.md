@@ -1,4 +1,4 @@
-#Quadratic Equation Roots by Tony Liang
+# Quadratic Equation Roots by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,9 +10,9 @@ Quadratic Equation, Discriminant, And Roots Formulas
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-3/Chapter03P01/images/instructions/quadratic_equation_discriminant_and_roots_formulas.png "Quadratic Equation, Discriminant, And Roots Formulas"
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -23,5 +23,5 @@ Quadratic Equation, Discriminant, And Roots Formulas
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click QuadraticEquationRoots.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the coefficients: a, b, and c. The coefficients must be separated by a space. No commas.

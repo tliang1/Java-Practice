@@ -1,12 +1,12 @@
-#Picking A Card by Tony Liang
+# Picking A Card by Tony Liang
 
 Made using Java SE 1.8.
 
 Draws and displays a random card from a deck of fifty two cards.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

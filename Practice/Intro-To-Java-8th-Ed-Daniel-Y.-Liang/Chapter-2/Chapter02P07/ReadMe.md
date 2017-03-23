@@ -1,12 +1,12 @@
-#Minutes To Years And Days by Tony Liang
+# Minutes To Years And Days by Tony Liang
 
 Made using Java SE 1.8.
 
 Computes the number of years and days for the minutes.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,5 +17,5 @@ Computes the number of years and days for the minutes.
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click MinutesToYearsAndDays.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the number of minutes.

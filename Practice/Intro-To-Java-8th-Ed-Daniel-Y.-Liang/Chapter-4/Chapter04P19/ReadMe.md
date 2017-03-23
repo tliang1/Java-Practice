@@ -1,4 +1,4 @@
-#Integer Pattern Pyramid by Tony Liang
+# Integer Pattern Pyramid by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -20,9 +20,9 @@ Displays the integer pyramid.
 
 1 &nbsp;2 &nbsp;4 &nbsp;8 &nbsp;16 &nbsp;32 &nbsp;64 &nbsp;128 &nbsp;64 &nbsp;32 &nbsp;16 &nbsp;8 &nbsp;4 &nbsp;2 &nbsp;1
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

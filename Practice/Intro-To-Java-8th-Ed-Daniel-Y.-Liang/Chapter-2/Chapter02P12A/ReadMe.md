@@ -1,12 +1,12 @@
-#Next Month Interest by Tony Liang
+# Next Month Interest by Tony Liang
 
 Made using Java SE 1.8.
 
 Computes the next month's interest.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,5 +17,5 @@ Computes the next month's interest.
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click NextMonthInterest.java.
 9. Run the program.
 
-#How To Use
-1. Enter the balance and the interest rate(e.g., 3 for 3%). The balance and the interest rate must be separated by a space.
+# How To Use
+1. Enter the balance and the interest rate (e.g., 3 for 3%). The balance and the interest rate must be separated by a space.

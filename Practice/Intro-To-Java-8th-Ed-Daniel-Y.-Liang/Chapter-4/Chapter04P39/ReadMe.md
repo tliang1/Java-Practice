@@ -1,4 +1,4 @@
-#Sales Amount by Tony Liang
+# Sales Amount by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -12,9 +12,9 @@ $0.01-$5,000          | 8 percent
 $5,000.01-$10,000     | 10 percent
 $10,000.01 and above  | 12 percent
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

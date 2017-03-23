@@ -1,4 +1,4 @@
-#Print Table by Tony Liang
+# Print Table by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -11,9 +11,9 @@ a    | a^2  | a^3
 3    | 9    | 27
 4    | 16   | 64
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

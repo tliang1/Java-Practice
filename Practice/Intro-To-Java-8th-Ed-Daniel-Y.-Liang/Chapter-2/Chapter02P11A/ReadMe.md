@@ -1,12 +1,12 @@
-#Payroll Statement by Tony Liang
+# Payroll Statement by Tony Liang
 
 Made using Java SE 1.8.
 
 Displays a payroll statement.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,9 +17,9 @@ Displays a payroll statement.
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click PayrollStatement.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the employee's name.
 2. Enter the number of hours the employee worked in a week.
 3. Enter the hourly pay rate of the employee.
-4. Enter the federal tax withholding rate(e.g., 0.20 for 20%).
-5. Enter the state tax withholding rate(e.g., 0.09 for 9%).
+4. Enter the federal tax withholding rate (e.g., 0.20 for 20%).
+5. Enter the state tax withholding rate (e.g., 0.09 for 9%).

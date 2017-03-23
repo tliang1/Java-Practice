@@ -1,12 +1,12 @@
-#Two Numbers Combinations by Tony Liang
+# Two Numbers Combinations by Tony Liang
 
 Made using Java SE 1.8.
 
 Displays all possible combinations for picking two numbers from integers 1 to 7 inclusive and the total number of all combinations.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

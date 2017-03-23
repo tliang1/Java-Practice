@@ -1,4 +1,4 @@
-#BMI by Tony Liang
+# BMI by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -21,9 +21,9 @@ below 16  | seriously underweight
 29-35     | seriously overweight
 above 35  | gravely overweight
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -34,6 +34,6 @@ above 35  | gravely overweight
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click BMI.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the weight in pounds.
 2. Enter the height in feet and inches. The feet and the inches must be separated by a space. No commas.

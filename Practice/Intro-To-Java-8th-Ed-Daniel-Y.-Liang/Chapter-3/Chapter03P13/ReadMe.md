@@ -1,4 +1,4 @@
-#Compute Tax by Tony Liang
+# Compute Tax by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -15,9 +15,9 @@ Marginal<br>Tax Rate   | Single                | Married Filing Jointly<br>or Qu
 33%                    | $171,551 - $372,950   | $208,851 - $372,950                                | $104,426 - $186,475         | $190,201 - $372,950
 35%                    | $372,951+             | $372,951+                                          | $186,476+                   | $372,951+
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -28,6 +28,6 @@ Marginal<br>Tax Rate   | Single                | Married Filing Jointly<br>or Qu
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click ComputeTax.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the filing status. 0 for single filer, 1 for married jointly, 2 for married separately, or 3 for head of household.
 2. Enter the taxable income.

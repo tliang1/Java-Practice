@@ -1,4 +1,4 @@
-#Heat Water Energy by Tony Liang
+# Heat Water Energy by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,9 +10,9 @@ Water Heating Energy Formula
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-2/Chapter02P16/images/instructions/water_heating_energy_formula.png "Water Heating Energy Formula"
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -23,7 +23,7 @@ Water Heating Energy Formula
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click HeatWaterEnergy.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the amount of water in kilograms.
 2. Enter the initial temperature in degrees Celsius.
 3. Enter the final temperature in degrees Celsius.

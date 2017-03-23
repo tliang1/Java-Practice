@@ -1,4 +1,4 @@
-#Summation by Tony Liang
+# Summation by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -6,9 +6,9 @@ Displays the result of the summation:
 
 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

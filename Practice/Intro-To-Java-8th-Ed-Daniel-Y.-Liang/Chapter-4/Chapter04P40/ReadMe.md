@@ -1,12 +1,12 @@
-#Head Or Tail Count by Tony Liang
+# Head Or Tail Count by Tony Liang
 
 Made using Java SE 1.8.
 
 Displays the number of heads and tails after flipping a coin a million times.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

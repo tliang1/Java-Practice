@@ -1,4 +1,4 @@
-#Compound Value by Tony Liang
+# Compound Value by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,9 +10,9 @@ Compound Value Formula
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-4/Chapter04P30/images/instructions/compound_value_formula.png "Compound Value Formula"
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -23,7 +23,7 @@ Compound Value Formula
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click CompoundValue.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the amount.
-2. Enter the annual interest rate(e.g., 5 for 5%).
+2. Enter the annual interest rate (e.g., 5 for 5%).
 3. Enter the number of months.

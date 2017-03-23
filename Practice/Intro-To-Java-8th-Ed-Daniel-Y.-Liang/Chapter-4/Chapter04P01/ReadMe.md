@@ -1,12 +1,12 @@
-#Average Of Numbers by Tony Liang
+# Average Of Numbers by Tony Liang
 
 Made using Java SE 1.8.
 
 Counts the number of given positive and negative integers. Then, it computes the sum and average of all the integers.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,6 +17,6 @@ Counts the number of given positive and negative integers. Then, it computes the
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click AverageOfNumbers.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter integers each separated by a space. No commas.
 2. Enter 0 when done.

@@ -1,4 +1,4 @@
-#Loan Amortization Schedule by Tony Liang
+# Loan Amortization Schedule by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,9 +10,9 @@ Monthly Payment, Total Payment, Interest, Principal, And Balance Formulas
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-4/Chapter04P22/images/instructions/monthly_payment_total_payment_interest_principal_and_balance_formulas.png "Monthly Payment, Total Payment, Interest, Principal, And Balance Formulas"
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -23,7 +23,7 @@ Monthly Payment, Total Payment, Interest, Principal, And Balance Formulas
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click LoanAmortizationSchedule.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the loan amount.
 2. Enter the loan period in years.
-3. Enter the annual interest rate(e.g., 7 for 7%).
+3. Enter the annual interest rate (e.g., 7 for 7%).

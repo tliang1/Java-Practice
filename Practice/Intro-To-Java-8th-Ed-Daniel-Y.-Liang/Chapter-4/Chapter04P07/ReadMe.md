@@ -1,12 +1,12 @@
-#Future Tuition by Tony Liang
+# Future Tuition by Tony Liang
 
 Made using Java SE 1.8.
 
 Displays the tuition in ten years and the total cost of four years' worth of tuition after the ten years with the initial tuition of $10,000 and a 5% increase every year.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

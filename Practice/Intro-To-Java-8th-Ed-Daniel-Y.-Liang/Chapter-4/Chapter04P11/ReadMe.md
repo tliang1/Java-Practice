@@ -1,12 +1,12 @@
-#Divisible By Five XOR Six by Tony Liang
+# Divisible By Five XOR Six by Tony Liang
 
 Made using Java SE 1.8.
 
 Displays all the integers that are divisible by five or six, but not both, between 100 and 200 inclusive.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

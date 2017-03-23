@@ -1,12 +1,12 @@
-#Divisible By Two Numbers by Tony Liang
+# Divisible By Two Numbers by Tony Liang
 
 Made using Java SE 1.8.
 
 Checks if the given integer is divisible by five and/or six.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,5 +17,5 @@ Checks if the given integer is divisible by five and/or six.
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click DivisibleByTwoNumbers.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter an integer.

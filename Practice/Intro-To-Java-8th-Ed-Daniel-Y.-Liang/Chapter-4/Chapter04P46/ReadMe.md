@@ -1,12 +1,12 @@
-#Short Value To Bits by Tony Liang
+# Short Value To Bits by Tony Liang
 
 Made using Java SE 1.8.
 
 Converts the short integer into its 16 bits representation.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,5 +17,5 @@ Converts the short integer into its 16 bits representation.
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click ShortValueToBits.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the short integer.

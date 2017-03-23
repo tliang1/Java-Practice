@@ -1,12 +1,12 @@
-#Smallest Factors by Tony Liang
+# Smallest Factors by Tony Liang
 
 Made using Java SE 1.8.
 
 Displays the smallest factors of a positive integer in increasing order.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,5 +17,5 @@ Displays the smallest factors of a positive integer in increasing order.
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click SmallestFactors.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter a positive integer.

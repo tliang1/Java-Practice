@@ -1,4 +1,4 @@
-#Sales Amount Revised by Tony Liang
+# Sales Amount Revised by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -12,9 +12,9 @@ $0.01-$5,000          | 8 percent
 $5,000.01-$10,000     | 10 percent
 $10,000.01 and above  | 12 percent
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -25,5 +25,5 @@ $10,000.01 and above  | 12 percent
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click SalesAmountRevised.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the commission sought.

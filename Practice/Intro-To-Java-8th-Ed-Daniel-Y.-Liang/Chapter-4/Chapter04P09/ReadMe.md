@@ -1,12 +1,12 @@
-#Two Highest Scores by Tony Liang
+# Two Highest Scores by Tony Liang
 
 Made using Java SE 1.8.
 
 Displays the name of the student with the highest score and the name of the student with the second highest score.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,6 +17,6 @@ Displays the name of the student with the highest score and the name of the stud
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click TwoHighestScores.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the number of students.
 2. For each student, enter the student's name and score. The student's name and score must be separated by a space. No commas.

@@ -1,4 +1,4 @@
-#Approximate E by Tony Liang
+# Approximate E by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,9 +10,9 @@ E Summation Series
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-4/Chapter04P26/images/instructions/e_summation_series.png "E Summation Series"
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

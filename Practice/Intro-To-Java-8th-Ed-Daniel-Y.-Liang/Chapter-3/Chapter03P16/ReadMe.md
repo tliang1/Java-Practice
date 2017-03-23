@@ -1,12 +1,12 @@
-#Random Uppercase Letter by Tony Liang
+# Random Uppercase Letter by Tony Liang
 
 Made using Java SE 1.8.
 
 Displays a random uppercase letter.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

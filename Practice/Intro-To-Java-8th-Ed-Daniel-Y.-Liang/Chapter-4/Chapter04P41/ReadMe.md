@@ -1,12 +1,12 @@
-#Max Number Occurrences by Tony Liang
+# Max Number Occurrences by Tony Liang
 
 Made using Java SE 1.8.
 
 Displays the largest integer and counts the number of occurrences of the integer.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -17,6 +17,6 @@ Displays the largest integer and counts the number of occurrences of the integer
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click MaxNumberOccurrences.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter integers each separated by a space. No commas.
 2. Enter 0 when done.

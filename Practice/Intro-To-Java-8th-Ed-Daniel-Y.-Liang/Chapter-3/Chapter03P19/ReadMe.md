@@ -1,4 +1,4 @@
-#Triangle Inequality by Tony Liang
+# Triangle Inequality by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,9 +10,9 @@ Valid Triangle
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-3/Chapter03P19/images/instructions/valid_triangle.png "Valid Triangle"
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -23,5 +23,5 @@ Valid Triangle
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click TriangleInequality.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the values of the three edges of the triangle. The values must be separated by a space. No commas.

@@ -1,4 +1,4 @@
-#Display Three Messages by Tony Liang
+# Display Three Messages by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,9 +10,9 @@ Welcome to Computer Science
 
 Programming is fun
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

@@ -1,4 +1,4 @@
-#Triangle Area by Tony Liang
+# Triangle Area by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,9 +10,9 @@ Triangle Semiperimeter And Area Formulas
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-2/Chapter02P21/images/instructions/triangle_semiperimeter_and_area_formulas.png "Triangle Semiperimeter And Area Formulas"
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -23,5 +23,5 @@ Triangle Semiperimeter And Area Formulas
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click TriangleArea.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the three points of the triangle. The x and the y coordinates must be separated by a space. No commas.

@@ -1,4 +1,4 @@
-#Average Acceleration by Tony Liang
+# Average Acceleration by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,9 +10,9 @@ Average Acceleration Formula
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-2/Chapter02P23/images/instructions/average_acceleration_formula.png "Average Acceleration Formula"
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -23,5 +23,5 @@ Average Acceleration Formula
 8. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click AverageAcceleration.java.
 9. Run the program.
 
-#How To Use
+# How To Use
 1. Enter the starting velocity in meters per second, ending velocity in meters per second, and the time span in seconds. The starting velocity, the ending velocity, and the time span must be separated by a space. No commas.

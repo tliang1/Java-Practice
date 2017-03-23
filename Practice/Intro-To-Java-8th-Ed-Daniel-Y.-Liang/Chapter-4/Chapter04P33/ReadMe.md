@@ -1,4 +1,4 @@
-#Perfect Number by Tony Liang
+# Perfect Number by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -6,9 +6,9 @@ Displays all perfect numbers between 2 and 10000 inclusive.
 
 A perfect number is a positive integer that is equal to the sum of all its positive divisors excluding itself.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.

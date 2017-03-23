@@ -1,4 +1,4 @@
-#Summation 2 by Tony Liang
+# Summation 2 by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,9 +10,9 @@ Summation Series
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-4/Chapter04P35/images/instructions/summation_series.png "Summation Series"
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
