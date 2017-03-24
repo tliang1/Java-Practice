@@ -1,27 +1,27 @@
-#Credit Card Number Validation by Tony Liang
+# Credit Card Number Validation by Tony Liang
 
 Made using Java SE 1.8.
 
 Checks if the given credit card number is valid.
 
-####Credit Card Number Patterns
+#### Credit Card Number Patterns
 1. 13-16 digits.
 2. Prefixes
-  1. 4 for VISA
-  2. 5 for MasterCard
-  3. 37 for American Express
-  4. 6 for Discover
+   1. 4 for VISA
+   2. 5 for MasterCard
+   3. 37 for American Express
+   4. 6 for Discover
 
-####Luhn/Mod 10 Check
+#### Luhn/Mod 10 Check
 1. Double every second digit from right to left. If doubling of a digit results in a two-digit number, add up the two digits to get a single-digit number.
 2. Add all single-digit numbers from Step 1.
 3. Add all digits in the odd places from right to left in the card number.
 4. Sum the results from Step 2 and Step 3.
 5. If the result from Step 4 is divisible by 10, the card number is valid. Otherwise, it is invalid.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -41,17 +41,17 @@ Checks if the given credit card number is valid.
 17. Right click test folder and select Build Path.
 18. Click Use as Source Folder.
 
-####Run Program
+#### Run Program
 1. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click CreditCardNumberValidation.java.
 2. Run the program.
 
-####Run JUnit Tests
+#### Run JUnit Tests
 1. In the Package Explorer tab, drop down the project folder, the test folder, and the package and click CreditCardNumberValidationTest.java.
 2. Run the program.
 
-####View Javadoc
+#### View Javadoc
 1. In the Package Explorer tab, click the project folder.
 2. In the menu bar, select Navigate and click Open Attached Javadoc. Keyboard Shortcut: Shift+F2
 
-#How To Use
+# How To Use
 1. Enter the credit card number.

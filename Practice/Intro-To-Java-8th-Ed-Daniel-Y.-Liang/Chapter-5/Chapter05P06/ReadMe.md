@@ -1,4 +1,4 @@
-#Display Pattern by Tony Liang
+# Display Pattern by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -14,9 +14,9 @@ Displays the pattern below given the nonzero positive integer.
 
 n n-1 ... 3 2 1
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -30,13 +30,13 @@ n n-1 ... 3 2 1
 11. Click OK.
 12. Click OK at the bottom right of the window.
 
-####Run Program
+#### Run Program
 1. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click DisplayPattern.java.
 2. Run the program.
 
-####View Javadoc
+#### View Javadoc
 1. In the Package Explorer tab, click the project folder.
 2. In the menu bar, select Navigate and click Open Attached Javadoc. Keyboard Shortcut: Shift+F2
 
-#How To Use
+# How To Use
 1. Enter a nonzero positive integer.
