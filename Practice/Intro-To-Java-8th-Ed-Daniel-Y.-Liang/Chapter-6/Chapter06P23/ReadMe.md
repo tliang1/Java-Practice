@@ -1,4 +1,4 @@
-#Locker Puzzle by Tony Liang
+# Locker Puzzle by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -11,9 +11,9 @@ closes every other locker. The third student begins with the third locker and ch
 changes every fourth locker. The fifth student starts with the fifth locker and changes every fifth locker, and so on, until the hundredth student changes the hundredth locker. After all the students have passed 
 through the building and changed the lockers, which lockers are open?
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -33,14 +33,14 @@ through the building and changed the lockers, which lockers are open?
 17. Right click test folder and select Build Path.
 18. Click Use as Source Folder.
 
-####Run Program
+#### Run Program
 1. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click LockerPuzzle.java.
 2. Run the program.
 
-####Run JUnit Tests
+#### Run JUnit Tests
 1. In the Package Explorer tab, drop down the project folder, the test folder, and the package and click LockerPuzzleTest.java.
 2. Run the program.
 
-####View Javadoc
+#### View Javadoc
 1. In the Package Explorer tab, click the project folder.
 2. In the menu bar, select Navigate and click Open Attached Javadoc. Keyboard Shortcut: Shift+F2

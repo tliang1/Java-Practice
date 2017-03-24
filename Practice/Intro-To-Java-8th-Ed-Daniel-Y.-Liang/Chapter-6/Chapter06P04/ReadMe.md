@@ -1,12 +1,12 @@
-#Analyzing Scores by Tony Liang
+# Analyzing Scores by Tony Liang
 
 Made using Java SE 1.8.
 
 Computes the average of all scores and displays the number of scores greater than or equal to the average and the number of scores less than the average given the scores.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -19,14 +19,14 @@ Computes the average of all scores and displays the number of scores greater tha
 10. Click Browse and select the docs folder location.
 11. Click OK at the bottom right of the window.
 
-####Run Program
+#### Run Program
 1. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click AnalyzingScores.java.
 2. Run the program.
 
-####View Javadoc
+#### View Javadoc
 1. In the Package Explorer tab, click the project folder.
 2. In the menu bar, select Navigate and click Open Attached Javadoc. Keyboard Shortcut: Shift+F2
 
-#How To Use
+# How To Use
 1. Enter scores each separated by a space. No commas. (Limit: 10 scores maximum.)
 2. Enter a negative integer when done.

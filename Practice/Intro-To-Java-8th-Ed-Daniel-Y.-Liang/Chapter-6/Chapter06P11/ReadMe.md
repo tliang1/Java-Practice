@@ -1,4 +1,4 @@
-#Mean And Standard Deviation Revised by Tony Liang
+# Mean And Standard Deviation Revised by Tony Liang
 
 Made using Java SE 1.8.
 
@@ -10,10 +10,9 @@ Mean And Standard Deviation Formulas
 
 [logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-6/Chapter06P11/images/instructions/mean_and_standard_deviation_formulas.png "Mean And Standard Deviation Formulas"
 
+# Project Setup
 
-#Project Setup
-
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -33,17 +32,17 @@ Mean And Standard Deviation Formulas
 17. Right click test folder and select Build Path.
 18. Click Use as Source Folder.
 
-####Run Program
+#### Run Program
 1. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click MeanAndStandardDeviationRevised.java.
 2. Run the program.
 
-####Run JUnit Tests
+#### Run JUnit Tests
 1. In the Package Explorer tab, drop down the project folder, the test folder, and the package and click MeanAndStandardDeviationRevisedTest.java.
 2. Run the program.
 
-####View Javadoc
+#### View Javadoc
 1. In the Package Explorer tab, click the project folder.
 2. In the menu bar, select Navigate and click Open Attached Javadoc. Keyboard Shortcut: Shift+F2
 
-#How To Use
+# How To Use
 1. Enter the ten double values each separated by a space. No commas.
