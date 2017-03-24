@@ -1,12 +1,12 @@
-#Largest Element Index by Tony Liang
+# Largest Element Index by Tony Liang
 
 Made using Java SE 1.8.
 
 Displays the smallest row and column indices of the largest double value given the size of the array and every double value.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -26,19 +26,19 @@ Displays the smallest row and column indices of the largest double value given t
 17. Right click test folder and select Build Path.
 18. Click Use as Source Folder.
 
-####Run Program
+#### Run Program
 1. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click LargestElementIndex.java.
 2. Run the program.
 
-####Run JUnit Tests
+#### Run JUnit Tests
 1. In the Package Explorer tab, drop down the project folder, the test folder, and the package and click LargestElementIndexTest.java.
 2. Run the program.
 
-####View Javadoc
+#### View Javadoc
 1. In the Package Explorer tab, click the project folder.
 2. In the menu bar, select Navigate and click Open Attached Javadoc. Keyboard Shortcut: Shift+F2
 
-#How To Use
+# How To Use
 1. Enter the number of rows and columns of the array each separated by a space. No commas.
 2. For each row of the array:
 	1. Enter the double values each separated by a space. No commas.

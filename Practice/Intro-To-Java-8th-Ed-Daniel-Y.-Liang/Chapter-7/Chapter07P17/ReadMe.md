@@ -1,12 +1,12 @@
-#Unsafe Banks by Tony Liang
+# Unsafe Banks by Tony Liang
 
 Made using Java SE 1.8.
 
 Displays the unsafe banks given the number of banks, the bank minimum balance limit, each bank's balance, the number of borrowers for each bank, and each borrower's ID and their borrow amount.
 
-#Project Setup
+# Project Setup
 
-###Eclipse IDE Instructions
+### Eclipse IDE Instructions
 1. Open Eclipse.
 2. Create a new project.
 3. Right click the folder of the project and click Import.
@@ -26,19 +26,19 @@ Displays the unsafe banks given the number of banks, the bank minimum balance li
 17. Right click test folder and select Build Path.
 18. Click Use as Source Folder.
 
-####Run Program
+#### Run Program
 1. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click UnsafeBanks.java.
 2. Run the program.
 
-####Run JUnit Tests
+#### Run JUnit Tests
 1. In the Package Explorer tab, drop down the project folder, the test folder, and the package and click UnsafeBanksTest.java.
 2. Run the program.
 
-####View Javadoc
+#### View Javadoc
 1. In the Package Explorer tab, click the project folder.
 2. In the menu bar, select Navigate and click Open Attached Javadoc. Keyboard Shortcut: Shift+F2
 
-#How To Use
+# How To Use
 1. Enter the number of banks.
 2. Enter their minimum limit (For example, 1 = 1 million dollars) (Must be a nonzero positive limit).
 3. For each bank:
