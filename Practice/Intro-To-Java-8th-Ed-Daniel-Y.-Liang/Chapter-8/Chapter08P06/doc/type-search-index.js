@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"main","l":"PrintCalendar"},{"p":"main","l":"PrintCalendarMessageDialog"}]
