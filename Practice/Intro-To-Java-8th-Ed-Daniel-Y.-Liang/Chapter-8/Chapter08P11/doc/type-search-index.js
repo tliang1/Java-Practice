@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"main","l":"LinearEquation"},{"p":"main","l":"TestLinearEquation"}]
