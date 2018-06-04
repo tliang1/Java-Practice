@@ -1,4 +1,4 @@
-# RegularPolygon by Tony Liang
+# Regular Polygon by Tony Liang
 
 Made using Java SE 10.
 
