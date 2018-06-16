@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"main","c":"CheckingSubstrings","l":"CheckingSubstrings()"},{"p":"main","c":"CheckingSubstrings","l":"isSubstringOf(String, String)","url":"isSubstringOf-java.lang.String-java.lang.String-"},{"p":"main","c":"CheckingSubstrings","l":"main(String[])","url":"main-java.lang.String:A-"}]
