@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"main","c":"DigitOccurrences","l":"count(String)","url":"count-java.lang.String-"},{"p":"main","c":"DigitOccurrences","l":"DigitOccurrences()"},{"p":"main","c":"DigitOccurrences","l":"main(String[])","url":"main-java.lang.String:A-"}]
