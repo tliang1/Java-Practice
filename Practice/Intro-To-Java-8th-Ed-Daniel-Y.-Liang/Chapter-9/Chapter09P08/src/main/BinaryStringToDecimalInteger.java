@@ -24,7 +24,7 @@ public class BinaryStringToDecimalInteger
 	 * Returns the decimal integer of the given binary string.
 	 * <ul>
 	 * 	<li>
-	 * 		If the string is not a binary string, the decimal integer will default to 0.
+	 * 		If the string is not a binary string, the decimal integer will default to -1.
 	 * 	</li>
 	 * </ul>
 	 * 
@@ -33,10 +33,12 @@ public class BinaryStringToDecimalInteger
 	 */
 	public static int binaryToDecimal(String binaryString)
 	{
-		int decimal = 0;
+		int decimal = -1;
 		
 		if (binaryString.matches("(0|1)+"))
 		{
+			decimal = 0;
+			
 			for (int character = 0, index = binaryString.length() - 1; (character < binaryString.length()) && (index >= 0); character++, 
 					index--)
 			{
