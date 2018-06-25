@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"main","c":"ProcessScoresInATextFile","l":"main(String[])","url":"main-java.lang.String:A-"},{"p":"main","c":"ProcessScoresInATextFile","l":"ProcessScoresInATextFile()"}]

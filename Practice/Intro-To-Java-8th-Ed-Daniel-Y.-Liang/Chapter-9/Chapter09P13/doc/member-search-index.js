@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"main","c":"CheckPalindrome","l":"CheckPalindrome()"},{"p":"main","c":"CheckPalindrome","l":"isPalindrome(String)","url":"isPalindrome-java.lang.String-"},{"p":"main","c":"CheckPalindrome","l":"main(String[])","url":"main-java.lang.String:A-"}]
