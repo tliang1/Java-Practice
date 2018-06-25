@@ -12,12 +12,13 @@ Converts the given Java file written in the next-line brace style to the end-of-
 3. Right click the folder of the project and click Import.
 4. Drop down the General folder and click File System.
 5. Click Next.
-6. Click Browse and click the location of the folder that contains the src folder and the doc folder and their files to import.
-7. On the left side, drop down the selected folder, select the src folder and the doc folder, and click Finish.
-8. In the Package Explorer tab, right click the project folder and click Properties.
-9. Click Javadoc Location on the left side of the window.
-10. Click Browse and select the docs folder location.
-11. Click OK at the bottom right of the window.
+6. Click Browse and click the location of the folder that contains the src folder and the doc folder and their files to import and the Test.java file.
+7. On the right side, select Test.java.
+8. On the left side, drop down the selected folder, select the src folder and the doc folder, and click Finish.
+9. In the Package Explorer tab, right click the project folder and click Properties.
+10. Click Javadoc Location on the left side of the window.
+11. Click Browse and select the docs folder location.
+12. Click OK at the bottom right of the window.
 
 #### Run Program
 1. In the Package Explorer tab, drop down the project folder, the src folder, and the package and right click ReformatJavaSourceCode.java.
