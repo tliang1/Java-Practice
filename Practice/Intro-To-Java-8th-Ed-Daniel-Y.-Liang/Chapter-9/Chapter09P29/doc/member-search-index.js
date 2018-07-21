@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"main","c":"NewStringSplitMethod","l":"main(String[])","url":"main-java.lang.String:A-"},{"p":"main","c":"NewStringSplitMethod","l":"NewStringSplitMethod()"},{"p":"main","c":"NewStringSplitMethod","l":"split(String, String)","url":"split-java.lang.String-java.lang.String-"}]

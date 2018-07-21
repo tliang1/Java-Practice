@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"main","c":"CommonPrefix","l":"CommonPrefix()"},{"p":"main","c":"CommonPrefix","l":"main(String[])","url":"main-java.lang.String:A-"},{"p":"main","c":"CommonPrefix","l":"prefix(String, String)","url":"prefix-java.lang.String-java.lang.String-"}]
