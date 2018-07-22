@@ -12,8 +12,13 @@ public class CreditCardNumberValidationRevised
 	{
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Enter a credit card number (Must be positive): ");
-		String creditCardNumber = input.next();
+		String creditCardNumber = "";
+		
+		while (!creditCardNumber.matches("(4\\d{12,15})|(5\\d{12,15})|(6\\d{12,15})|(37\\d{11,14})"))
+		{
+			System.out.print("Enter a credit card number (Must be positive): ");
+			creditCardNumber = input.next();
+		}
 		
 		input.close();
 		
@@ -35,17 +40,13 @@ public class CreditCardNumberValidationRevised
 	 */
 	public static boolean isValid(String cardNumber)
 	{
-		if ((cardNumber.length() >= 13) && (cardNumber.length() <= 16))
+		if (cardNumber.matches("(4\\d{12,15})|(5\\d{12,15})|(6\\d{12,15})|(37\\d{11,14})"))
 		{
-			if ((cardNumber.charAt(0) == '4') || (cardNumber.charAt(0) == '5') || cardNumber.startsWith("37") || 
-					(cardNumber.charAt(0) == '6'))
+			int sum = sumOfDoubleEvenPlace(cardNumber) + sumOfOddPlace(cardNumber);
+			
+			if (sum % 10 == 0)
 			{
-				int sum = sumOfDoubleEvenPlace(cardNumber) + sumOfOddPlace(cardNumber);
-				
-				if (sum % 10 == 0)
-				{
-					return true;
-				}
+				return true;
 			}
 		}
 		
@@ -56,7 +57,7 @@ public class CreditCardNumberValidationRevised
 	 * Returns the sum of all doubled digits in the even places of the given string from right to left.
 	 * <ul>
 	 * 	<li>
-	 * 		If the number is less than 10, the sum will default to 0.
+	 * 		If the string is not a number or the number is less than 10, the sum will default to 0.
 	 * 	</li>
 	 * </ul>
 	 * <br>
@@ -77,20 +78,23 @@ public class CreditCardNumberValidationRevised
 	 */
 	public static int sumOfDoubleEvenPlace(String cardNumber)
 	{
-		long number = Long.parseLong(cardNumber);
-		
-		if (number < 10)
-		{
-			return 0;
-		}
-		
 		int sum = 0;
 		
-		while (number != 0)
+		if (cardNumber.matches("\\d+"))
 		{
-			int evenPlaceDigit = (int)((number % 100) / 10);
-			sum += getDigit(evenPlaceDigit * 2);
-			number /= 100;
+			long number = Long.parseLong(cardNumber);
+			
+			if (number < 10)
+			{
+				return 0;
+			}
+			
+			while (number != 0)
+			{
+				int evenPlaceDigit = (int)((number % 100) / 10);
+				sum += getDigit(evenPlaceDigit * 2);
+				number /= 100;
+			}
 		}
 		
 		return sum;
@@ -130,7 +134,7 @@ public class CreditCardNumberValidationRevised
 	 * Returns the sum of all digits in the odd places of the given string from right to left.
 	 * <ul>
 	 * 	<li>
-	 * 		If the number is less than 1, the sum will default to 0.
+	 * 		If the string is not a number or the number is less than 1, the sum will default to 0.
 	 * 	</li>
 	 * </ul>
 	 * 
@@ -139,19 +143,22 @@ public class CreditCardNumberValidationRevised
 	 */
 	public static int sumOfOddPlace(String cardNumber)
 	{
-		long number = Long.parseLong(cardNumber);
-		
-		if (number < 1)
-		{
-			return 0;
-		}
-		
 		int sum = 0;
 		
-		while (number != 0)
+		if (cardNumber.matches("\\d+"))
 		{
-			sum += number % 10;
-			number /= 100;
+			long number = Long.parseLong(cardNumber);
+			
+			if (number < 1)
+			{
+				return 0;
+			}
+			
+			while (number != 0)
+			{
+				sum += number % 10;
+				number /= 100;
+			}
 		}
 		
 		return sum;
