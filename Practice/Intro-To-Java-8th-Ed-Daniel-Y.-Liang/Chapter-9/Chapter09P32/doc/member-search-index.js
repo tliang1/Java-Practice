@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"main","c":"ISBNRevised","l":"getISBN(String)","url":"getISBN-java.lang.String-"},{"p":"main","c":"ISBNRevised","l":"ISBNRevised()"},{"p":"main","c":"ISBNRevised","l":"main(String[])","url":"main-java.lang.String:A-"}]
