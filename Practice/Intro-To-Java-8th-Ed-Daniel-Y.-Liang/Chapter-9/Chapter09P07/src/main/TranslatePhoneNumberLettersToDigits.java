@@ -29,7 +29,7 @@ public class TranslatePhoneNumberLettersToDigits
 	 * </ul>
 	 * 
 	 * @param uppercaseLetter	an uppercase letter
-	 * @return					the phone digit given the uppercase letter.
+	 * @return					the phone digit
 	 */
 	public static int getNumber(char uppercaseLetter)
 	{

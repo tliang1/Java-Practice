@@ -30,7 +30,7 @@ public class SumOfIntegerStrings
 	 * </ul>
 	 * 
 	 * @param integers	string array of integers
-	 * @return			the sum of all the integers given the string array.
+	 * @return			the sum of all the integers
 	 */
 	public static int sumOfAllIntegers(String[] integers)
 	{

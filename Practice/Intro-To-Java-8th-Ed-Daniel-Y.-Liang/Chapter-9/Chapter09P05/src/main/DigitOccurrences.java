@@ -29,7 +29,7 @@ public class DigitOccurrences
 	 * Returns the array of integers that holds the number of occurrences of each digit in the specified string.
 	 * 
 	 * @param s	the string
-	 * @return	the array of integers that holds the number of occurrences of each digit in the specified string.
+	 * @return	the array of integers that holds the number of occurrences of each digit in the specified string
 	 */
 	public static int[] count(String s)
 	{

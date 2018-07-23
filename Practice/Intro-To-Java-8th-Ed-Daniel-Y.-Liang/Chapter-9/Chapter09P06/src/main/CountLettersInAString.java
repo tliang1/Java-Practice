@@ -24,7 +24,7 @@ public class CountLettersInAString
 	 * Returns the number of letters in the specified string.
 	 * 
 	 * @param s		a string
-	 * @return		the number of letters in the specified string.
+	 * @return		the number of letters in the specified string
 	 */
 	public static int countLetters(String s)
 	{

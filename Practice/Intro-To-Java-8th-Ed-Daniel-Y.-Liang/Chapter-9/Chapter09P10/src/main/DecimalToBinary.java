@@ -37,7 +37,7 @@ public class DecimalToBinary
 	 * </ul>
 	 * 
 	 * @param value		the decimal number
-	 * @return			the binary number of the given decimal number.
+	 * @return			the binary number of the given decimal number
 	 */
 	public static String decimalToBinary(int value)
 	{

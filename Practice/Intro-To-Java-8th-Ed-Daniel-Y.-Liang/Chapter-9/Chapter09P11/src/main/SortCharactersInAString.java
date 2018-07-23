@@ -25,7 +25,7 @@ public class SortCharactersInAString
 	 * Returns a sorted string given the string.
 	 * 
 	 * @param s		a string
-	 * @return		a sorted string given the string.
+	 * @return		a sorted string
 	 */
 	public static String sort(String s)
 	{

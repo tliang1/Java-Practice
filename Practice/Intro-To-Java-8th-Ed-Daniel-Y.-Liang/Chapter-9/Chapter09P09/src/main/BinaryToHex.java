@@ -29,7 +29,7 @@ public class BinaryToHex
 	 * </ul>
 	 * 
 	 * @param binaryValue	a binary number
-	 * @return				the hex number of the given binary value.
+	 * @return				the hex number of the given binary value
 	 */
 	public static String binaryToHex(String binaryValue)
 	{	
@@ -76,7 +76,7 @@ public class BinaryToHex
 	 * </ul>
 	 * 
 	 * @param binaryString	a binary string
-	 * @return				the decimal integer of the given binary string.
+	 * @return				the decimal integer of the given binary string
 	 */
 	public static int binaryToDecimal(String binaryString)
 	{

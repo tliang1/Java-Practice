@@ -31,7 +31,7 @@ public class NumberOfUppercaseLettersInAString
 	 * Returns the number of uppercase letters in the given string.
 	 * 
 	 * @param string	a string
-	 * @return			the number of uppercase letters in the given string.
+	 * @return			the number of uppercase letters in the given string
 	 */
 	public static int countUppercaseLetters(String string)
 	{

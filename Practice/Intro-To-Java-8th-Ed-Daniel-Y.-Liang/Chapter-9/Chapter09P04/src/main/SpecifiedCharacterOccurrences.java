@@ -28,7 +28,7 @@ public class SpecifiedCharacterOccurrences
 	 * 
 	 * @param str	the string
 	 * @param a		the character
-	 * @return		the number of occurrences of the specified character in the specified string.
+	 * @return		the number of occurrences of the specified character in the specified string
 	 */
 	public static int count(String str, char a)
 	{

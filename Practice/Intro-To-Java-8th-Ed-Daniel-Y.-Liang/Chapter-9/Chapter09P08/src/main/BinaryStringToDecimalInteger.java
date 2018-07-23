@@ -29,7 +29,7 @@ public class BinaryStringToDecimalInteger
 	 * </ul>
 	 * 
 	 * @param binaryString	a binary string
-	 * @return				the decimal integer of the given binary string.
+	 * @return				the decimal integer of the given binary string
 	 */
 	public static int binaryToDecimal(String binaryString)
 	{
