@@ -4,6 +4,8 @@ Made using Java SE 10.
 
 Displays all genes in the given genome string.
 
+A genome string is a sequence of letters A, C, T, and G.
+
 # Project Setup
 
 ### Eclipse IDE Instructions
