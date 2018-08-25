@@ -18,12 +18,17 @@ public class Time
 	
 	/**
 	 * Creates a new Time given the elapse time in milliseconds.
+	 * <ul>
+	 * 	<li>
+	 * 		If the elapse time is negative, it will default to 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param elapseTime	the elapse time in milliseconds
 	 */
 	public Time(long elapseTime)
 	{
-		long totalSeconds = elapseTime / 1000;
+		long totalSeconds = (elapseTime > 0) ? (elapseTime / 1000) : 0;
 		
 		second = (int)(totalSeconds % 60);
 		
@@ -38,6 +43,17 @@ public class Time
 	
 	/**
 	 * Creates a new Time given the hours, minutes, and seconds.
+	 * <ul>
+	 * 	<li>
+	 * 		If the hours are negative, it will default to 0.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the minutes are negative, it will default to 0.
+	 * 	</li>
+	 * 	<li>
+	 * 		If the seconds are negative, it will default to 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param hour		hours
 	 * @param minute	minutes
@@ -45,9 +61,9 @@ public class Time
 	 */
 	public Time(int hour, int minute, int second)
 	{
-		this.hour = hour;
-		this.minute = minute;
-		this.second = second;
+		this.hour = (hour > 0) ? hour : 0;
+		this.minute = (minute > 0) ? minute : 0;
+		this.second = (second > 0) ? second : 0;
 	}
 	
 	public int getHour()
@@ -67,6 +83,11 @@ public class Time
 	
 	/**
 	 * Set a new time given the elapse time in milliseconds.
+	 * <ul>
+	 * 	<li>
+	 * 		If the elapse time is negative, it will default to 0.
+	 * 	</li>
+	 * </ul>
 	 * 
 	 * @param elapseTime	the elapse time in milliseconds
 	 */
