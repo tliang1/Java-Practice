@@ -20,7 +20,7 @@ Displays the hours, minutes, and seconds for two Time objects.
 11. Click OK at the bottom right of the window.
 
 #### Run Program
-1. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click Time.java.
+1. In the Package Explorer tab, drop down the project folder, the src folder, and the package and click TestTime.java.
 2. Run the program.
 
 #### View Javadoc
