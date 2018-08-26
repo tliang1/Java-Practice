@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"main","l":"PrimeNumbersUsingStack"},{"p":"main","l":"StackOfIntegers"}]
