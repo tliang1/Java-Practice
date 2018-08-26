@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"main","c":"MyPoint","l":"distance(double, double)"},{"p":"main","c":"MyPoint","l":"distance(MyPoint)","url":"distance-main.MyPoint-"},{"p":"main","c":"MyPoint","l":"getX()"},{"p":"main","c":"MyPoint","l":"getY()"},{"p":"main","c":"MyPoint","l":"MyPoint()"},{"p":"main","c":"MyPoint","l":"MyPoint(double, double)"}]
