@@ -2,7 +2,7 @@
 
 Made using Java SE 10.
 
-Displays the students in the course after creating the course, adding three students to it, removing one student.
+Displays the students in the course after creating the course, adding three students to it, and removing one student.
 
 # Project Setup
 
