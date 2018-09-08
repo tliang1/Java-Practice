@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"main","l":"Circle"},{"p":"main","l":"GeometricObject"},{"p":"main","l":"Loan"}]
