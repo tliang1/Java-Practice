@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"main","c":"MyStack","l":"MyStack()"},{"p":"main","c":"MyStack","l":"peek()"},{"p":"main","c":"MyStack","l":"pop()"},{"p":"main","c":"MyStack","l":"push(Object)","url":"push-java.lang.Object-"},{"p":"main","c":"MyStack","l":"toString()"}]
