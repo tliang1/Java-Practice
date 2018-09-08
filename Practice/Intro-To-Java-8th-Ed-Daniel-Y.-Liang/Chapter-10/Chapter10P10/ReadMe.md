@@ -29,4 +29,4 @@ Guesses the date of the month of your birthday.
 
 # How To Use
 1. Enter 1 if your birthday is in the set. Otherwise, enter 0.
-2. Repeat Step 1 five times to reveal your birthday.
+2. Repeat Step 1 four more times to reveal your birthday.
