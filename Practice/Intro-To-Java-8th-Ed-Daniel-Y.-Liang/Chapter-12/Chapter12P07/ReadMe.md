@@ -8,7 +8,7 @@ Tic-tac-toe Board
 
 ![alt text][logo]
 
-[logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-12/Chapter12P09/images/instructions/tic_tac_toe_board.png "Tic-tac-toe Board"
+[logo]: https://github.com/tliang1/Java-Practice/raw/master/Practice/Intro-To-Java-8th-Ed-Daniel-Y.-Liang/Chapter-12/Chapter12P07/images/instructions/tic_tac_toe_board.png "Tic-tac-toe Board"
 
 # Images
 
