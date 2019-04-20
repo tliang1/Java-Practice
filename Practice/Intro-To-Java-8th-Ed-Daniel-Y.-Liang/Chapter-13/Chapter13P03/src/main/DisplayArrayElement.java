@@ -35,7 +35,7 @@ public class DisplayArrayElement
 	 * Returns the array of random integers given the number of integers in the array.
 	 * <ul>
 	 * 	<li>
-	 * 		If the number of integers is not a nonzero integer, the array will only have one random integer.
+	 * 		If the number of integers is less than or equal to zero, the array will only have one random integer.
 	 * 	</li>
 	 * </ul>
 	 * 
