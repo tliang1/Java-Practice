@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"main","l":"BinaryFormatException"},{"p":"main","l":"BinaryToDecimalConversion"}]
