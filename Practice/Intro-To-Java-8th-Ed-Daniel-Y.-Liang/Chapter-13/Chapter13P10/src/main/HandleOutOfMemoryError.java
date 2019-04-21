@@ -10,7 +10,7 @@ public class HandleOutOfMemoryError
 {
 	public static void main(String[] args)
 	{
-		ArrayList objects = new ArrayList<>();
+		ArrayList<Object> objects = new ArrayList<Object>();
 		
 		try
 		{
