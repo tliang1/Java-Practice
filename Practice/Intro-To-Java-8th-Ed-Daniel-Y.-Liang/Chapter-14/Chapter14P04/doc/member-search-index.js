@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"main","c":"House","l":"clone()"},{"p":"main","c":"House","l":"compareTo(Object)","url":"compareTo(java.lang.Object)"},{"p":"main","c":"House","l":"getArea()"},{"p":"main","c":"House","l":"getId()"},{"p":"main","c":"House","l":"getWhenBuilt()"},{"p":"main","c":"House","l":"House(int, double)","url":"%3Cinit%3E(int,double)"}]
