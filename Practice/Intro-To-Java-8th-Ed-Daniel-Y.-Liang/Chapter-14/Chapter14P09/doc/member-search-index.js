@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"main","c":"LargestObject","l":"LargestObject()","url":"%3Cinit%3E()"},{"p":"main","c":"LargestObject","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"main","c":"LargestObject","l":"max(Comparable[])","url":"max(java.lang.Comparable[])"}]

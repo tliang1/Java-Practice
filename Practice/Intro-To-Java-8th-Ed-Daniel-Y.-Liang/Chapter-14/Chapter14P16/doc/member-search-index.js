@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"main","c":"ApproximateEUsingBigDecimal","l":"approximateE(int)"},{"p":"main","c":"ApproximateEUsingBigDecimal","l":"ApproximateEUsingBigDecimal()","url":"%3Cinit%3E()"},{"p":"main","c":"ApproximateEUsingBigDecimal","l":"main(String[])","url":"main(java.lang.String[])"}]

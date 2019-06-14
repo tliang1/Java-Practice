@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"main","c":"MersennePrimesUsingBigInteger","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"main","c":"MersennePrimesUsingBigInteger","l":"MersennePrimesUsingBigInteger()","url":"%3Cinit%3E()"}]
