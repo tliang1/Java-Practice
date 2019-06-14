@@ -2,7 +2,7 @@
 
 Made using Java SE 12.
 
-Displays the first five prime numbers larger than Long.MAX_VALUE.
+Displays the first five prime numbers larger than Long.MAX_VALUE. It can take at least 7 minutes for the program to finish.
 
 # Project Setup
 
